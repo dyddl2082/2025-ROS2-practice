@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target gunman[0m
+[35m[1mScanning dependencies of target player[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gunman.dir/src/Shooter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/player.dir/src/Player.cpp.o[0m
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:[m[K In member function ‘[01m[Kvoid Gunman::reset_state()[m[K’:
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:99:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kwait_respoonse_timer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kwait_response_timer_[m[K’?
+   99 |             [01;31m[Kwait_respoonse_timer_[m[K.reset();
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kwait_response_timer_[m[K
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:[m[K In lambda function:
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:75:49:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   75 |                     std::this_thread::sleep_for([01;31m[K1s[m[K);
+      |                                                 [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/gunman.dir/build.make:63: CMakeFiles/gunman.dir/src/Shooter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/gunman.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/player.dir/build.make:63: CMakeFiles/player.dir/src/Player.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/player.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

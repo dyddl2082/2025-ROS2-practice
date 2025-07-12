@@ -1,0 +1,31 @@
+[0.263s] Invoking command in '/home/dyddl2082/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base /usr/bin/cmake /home/dyddl2082/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/polygon_plugins
+[0.623s] -- The C compiler identification is GNU 9.4.0
+[1.251s] -- The CXX compiler identification is GNU 9.4.0
+[1.603s] -- Check for working C compiler: /usr/bin/cc
+[1.888s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.889s] -- Detecting C compiler ABI info
+[2.170s] -- Detecting C compiler ABI info - done
+[2.177s] -- Detecting C compile features
+[2.177s] -- Detecting C compile features - done
+[2.179s] -- Check for working CXX compiler: /usr/bin/c++
+[2.456s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.457s] -- Detecting CXX compiler ABI info
+[2.696s] -- Detecting CXX compiler ABI info - done
+[2.702s] -- Detecting CXX compile features
+[2.703s] -- Detecting CXX compile features - done
+[2.704s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.720s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.720s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.852s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.862s] -- Found polygon_base: 0.0.0 (/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[2.863s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[5.694s] CMake Error at /opt/ros/foxy/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[5.695s]   Given plugin description file
+[5.695s]   '/home/dyddl2082/ros2_ws/src/polygon_plugins/plugins.xml' does not exist
+[5.695s] Call Stack (most recent call first):
+[5.695s]   CMakeLists.txt:34 (pluginlib_export_plugin_description_file)
+[5.695s] 
+[5.695s] 
+[5.695s] -- Configuring incomplete, errors occurred!
+[5.695s] See also "/home/dyddl2082/ros2_ws/build/polygon_plugins/CMakeFiles/CMakeOutput.log".
+[5.703s] Invoked command in '/home/dyddl2082/ros2_ws/build/polygon_plugins' returned '1': AMENT_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base /usr/bin/cmake /home/dyddl2082/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/polygon_plugins

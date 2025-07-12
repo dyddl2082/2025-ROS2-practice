@@ -1,0 +1,4 @@
+source;share/Wild_Gunman/local_setup.bash
+source;share/Wild_Gunman/local_setup.dsv
+source;share/Wild_Gunman/local_setup.sh
+source;share/Wild_Gunman/local_setup.zsh

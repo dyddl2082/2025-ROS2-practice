@@ -1,0 +1,6 @@
+Invoking command in '/home/dyddl2082/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/more_interfaces
+Invoked command in '/home/dyddl2082/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/more_interfaces
+Invoking command in '/home/dyddl2082/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/more_interfaces -- -j18 -l18
+Invoked command in '/home/dyddl2082/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/more_interfaces -- -j18 -l18
+Invoking command in '/home/dyddl2082/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/more_interfaces
+Invoked command in '/home/dyddl2082/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/more_interfaces

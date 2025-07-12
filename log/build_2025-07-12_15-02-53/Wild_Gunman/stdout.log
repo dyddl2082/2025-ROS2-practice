@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target player[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/player.dir/src/Player.cpp.o[0m
+[ 75%] Built target gunman

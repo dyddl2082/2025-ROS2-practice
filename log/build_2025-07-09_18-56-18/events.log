@@ -1,0 +1,250 @@
+[0.000000] (-) TimerEvent: {}
+[0.000486] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000546] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000566] (-) JobUnselected: {'identifier': 'two_joint_arm'}
+[0.000853] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000918] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.008987] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.009523] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/home/dyddl2082/ros2_ws/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/cpp_srvcli'], 'cwd': '/home/dyddl2082/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/3165_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('WT_SESSION', '5240b5bc-3a29-4665-83cb-078405a8eb99'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/two_joint_arm:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/two_joint_arm:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099865] (-) TimerEvent: {}
+[0.200368] (-) TimerEvent: {}
+[0.300772] (-) TimerEvent: {}
+[0.352011] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.400946] (-) TimerEvent: {}
+[0.501426] (-) TimerEvent: {}
+[0.602004] (-) TimerEvent: {}
+[0.702492] (-) TimerEvent: {}
+[0.803054] (-) TimerEvent: {}
+[0.903729] (-) TimerEvent: {}
+[0.959942] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.003855] (-) TimerEvent: {}
+[1.104349] (-) TimerEvent: {}
+[1.204832] (-) TimerEvent: {}
+[1.217996] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.304996] (-) TimerEvent: {}
+[1.405506] (-) TimerEvent: {}
+[1.506117] (-) TimerEvent: {}
+[1.534589] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.535104] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.606333] (-) TimerEvent: {}
+[1.706818] (-) TimerEvent: {}
+[1.807390] (-) TimerEvent: {}
+[1.826654] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.835758] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.836111] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.838501] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.907605] (-) TimerEvent: {}
+[2.008131] (-) TimerEvent: {}
+[2.108708] (-) TimerEvent: {}
+[2.137849] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.139682] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.208920] (-) TimerEvent: {}
+[2.309672] (-) TimerEvent: {}
+[2.410222] (-) TimerEvent: {}
+[2.470482] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.485930] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.486568] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.488847] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.510566] (-) TimerEvent: {}
+[2.512831] (cpp_srvcli) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.513110] (cpp_srvcli) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.610701] (-) TimerEvent: {}
+[2.643794] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.710910] (-) TimerEvent: {}
+[2.811339] (-) TimerEvent: {}
+[2.911762] (-) TimerEvent: {}
+[2.946355] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.950586] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.011925] (-) TimerEvent: {}
+[3.112388] (-) TimerEvent: {}
+[3.212836] (-) TimerEvent: {}
+[3.313303] (-) TimerEvent: {}
+[3.413857] (-) TimerEvent: {}
+[3.514316] (-) TimerEvent: {}
+[3.614708] (-) TimerEvent: {}
+[3.715223] (-) TimerEvent: {}
+[3.815863] (-) TimerEvent: {}
+[3.916344] (-) TimerEvent: {}
+[4.016908] (-) TimerEvent: {}
+[4.117452] (-) TimerEvent: {}
+[4.218185] (-) TimerEvent: {}
+[4.318867] (-) TimerEvent: {}
+[4.419618] (-) TimerEvent: {}
+[4.520344] (-) TimerEvent: {}
+[4.620962] (-) TimerEvent: {}
+[4.721515] (-) TimerEvent: {}
+[4.822126] (-) TimerEvent: {}
+[4.922791] (-) TimerEvent: {}
+[5.023431] (-) TimerEvent: {}
+[5.123993] (-) TimerEvent: {}
+[5.224598] (-) TimerEvent: {}
+[5.325027] (-) TimerEvent: {}
+[5.425696] (-) TimerEvent: {}
+[5.484387] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.525832] (-) TimerEvent: {}
+[5.626260] (-) TimerEvent: {}
+[5.726688] (-) TimerEvent: {}
+[5.827183] (-) TimerEvent: {}
+[5.927801] (-) TimerEvent: {}
+[6.028413] (-) TimerEvent: {}
+[6.128886] (-) TimerEvent: {}
+[6.229393] (-) TimerEvent: {}
+[6.329835] (-) TimerEvent: {}
+[6.430535] (-) TimerEvent: {}
+[6.530955] (-) TimerEvent: {}
+[6.631430] (-) TimerEvent: {}
+[6.731926] (-) TimerEvent: {}
+[6.832589] (-) TimerEvent: {}
+[6.933121] (-) TimerEvent: {}
+[7.033523] (-) TimerEvent: {}
+[7.133934] (-) TimerEvent: {}
+[7.234344] (-) TimerEvent: {}
+[7.334793] (-) TimerEvent: {}
+[7.435195] (-) TimerEvent: {}
+[7.535646] (-) TimerEvent: {}
+[7.636215] (-) TimerEvent: {}
+[7.736633] (-) TimerEvent: {}
+[7.837134] (-) TimerEvent: {}
+[7.937691] (-) TimerEvent: {}
+[7.942715] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[8.037866] (-) TimerEvent: {}
+[8.138306] (-) TimerEvent: {}
+[8.238706] (-) TimerEvent: {}
+[8.339241] (-) TimerEvent: {}
+[8.439878] (-) TimerEvent: {}
+[8.540407] (-) TimerEvent: {}
+[8.640828] (-) TimerEvent: {}
+[8.741328] (-) TimerEvent: {}
+[8.841833] (-) TimerEvent: {}
+[8.942258] (-) TimerEvent: {}
+[9.042735] (-) TimerEvent: {}
+[9.143297] (-) TimerEvent: {}
+[9.243647] (-) TimerEvent: {}
+[9.343997] (-) TimerEvent: {}
+[9.444350] (-) TimerEvent: {}
+[9.544730] (-) TimerEvent: {}
+[9.645126] (-) TimerEvent: {}
+[9.745673] (-) TimerEvent: {}
+[9.846288] (-) TimerEvent: {}
+[9.946804] (-) TimerEvent: {}
+[10.047412] (-) TimerEvent: {}
+[10.148031] (-) TimerEvent: {}
+[10.248622] (-) TimerEvent: {}
+[10.349134] (-) TimerEvent: {}
+[10.449597] (-) TimerEvent: {}
+[10.550169] (-) TimerEvent: {}
+[10.650845] (-) TimerEvent: {}
+[10.751340] (-) TimerEvent: {}
+[10.851796] (-) TimerEvent: {}
+[10.952225] (-) TimerEvent: {}
+[11.052720] (-) TimerEvent: {}
+[11.153180] (-) TimerEvent: {}
+[11.253644] (-) TimerEvent: {}
+[11.354134] (-) TimerEvent: {}
+[11.454652] (-) TimerEvent: {}
+[11.555042] (-) TimerEvent: {}
+[11.655606] (-) TimerEvent: {}
+[11.756124] (-) TimerEvent: {}
+[11.803273] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.856280] (-) TimerEvent: {}
+[11.863075] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[11.865719] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.867894] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.956433] (-) TimerEvent: {}
+[12.056854] (-) TimerEvent: {}
+[12.129175] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.129497] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.157067] (-) TimerEvent: {}
+[12.257721] (-) TimerEvent: {}
+[12.358142] (-) TimerEvent: {}
+[12.368703] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[12.369075] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[12.458300] (-) TimerEvent: {}
+[12.558729] (-) TimerEvent: {}
+[12.599217] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[12.599575] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[12.658862] (-) TimerEvent: {}
+[12.759321] (-) TimerEvent: {}
+[12.859965] (-) TimerEvent: {}
+[12.875013] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[12.876699] (cpp_srvcli) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.960163] (-) TimerEvent: {}
+[13.013714] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[13.060301] (-) TimerEvent: {}
+[13.109340] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[13.160495] (-) TimerEvent: {}
+[13.201175] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.202244] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.202409] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[13.202457] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.203262] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.203330] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.204572] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.207596] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.208200] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.208965] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.211786] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.220209] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[13.223664] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/dyddl2082/ros2_ws/build/cpp_srvcli\n'}
+[13.230633] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[13.233883] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[13.233915] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyddl2082/ros2_ws/build/cpp_srvcli', '--', '-j18', '-l18'], 'cwd': '/home/dyddl2082/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/3165_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('WT_SESSION', '5240b5bc-3a29-4665-83cb-078405a8eb99'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/two_joint_arm:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/two_joint_arm:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[13.260919] (-) TimerEvent: {}
+[13.264457] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target server\x1b[0m\n'}
+[13.269284] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client\x1b[0m\n'}
+[13.361049] (-) TimerEvent: {}
+[13.374997] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[13.375642] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[13.461232] (-) TimerEvent: {}
+[13.561862] (-) TimerEvent: {}
+[13.662568] (-) TimerEvent: {}
+[13.762941] (-) TimerEvent: {}
+[13.863361] (-) TimerEvent: {}
+[13.963840] (-) TimerEvent: {}
+[14.064306] (-) TimerEvent: {}
+[14.164685] (-) TimerEvent: {}
+[14.265129] (-) TimerEvent: {}
+[14.365680] (-) TimerEvent: {}
+[14.466232] (-) TimerEvent: {}
+[14.567075] (-) TimerEvent: {}
+[14.667956] (-) TimerEvent: {}
+[14.768841] (-) TimerEvent: {}
+[14.869687] (-) TimerEvent: {}
+[14.970734] (-) TimerEvent: {}
+[14.981971] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[15.070865] (-) TimerEvent: {}
+[15.171216] (-) TimerEvent: {}
+[15.232040] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[15.271362] (-) TimerEvent: {}
+[15.293616] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[15.371645] (-) TimerEvent: {}
+[15.472319] (-) TimerEvent: {}
+[15.572997] (-) TimerEvent: {}
+[15.639489] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[15.656290] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[15.658874] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[15.664494] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyddl2082/ros2_ws/build/cpp_srvcli'], 'cwd': '/home/dyddl2082/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/3165_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('WT_SESSION', '5240b5bc-3a29-4665-83cb-078405a8eb99'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/two_joint_arm:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/two_joint_arm:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[15.673159] (-) TimerEvent: {}
+[15.675667] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.676398] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[15.677026] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/dyddl2082/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[15.677114] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[15.677728] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/dyddl2082/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[15.678127] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[15.678700] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[15.678923] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[15.679115] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[15.679164] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[15.679196] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[15.679231] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[15.679257] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[15.679306] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[15.680122] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[15.680191] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[15.680354] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[15.680813] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[15.680914] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[15.680970] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[15.683727] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[15.698570] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[15.699942] (-) EventReactorShutdown: {}

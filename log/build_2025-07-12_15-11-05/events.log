@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000361] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000409] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000435] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000635] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000670] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000823] (Wild_Gunman) JobQueued: {'identifier': 'Wild_Gunman', 'dependencies': OrderedDict()}
+[0.000897] (Wild_Gunman) JobStarted: {'identifier': 'Wild_Gunman'}
+[0.013997] (Wild_Gunman) JobProgress: {'identifier': 'Wild_Gunman', 'progress': 'cmake'}
+[0.014924] (Wild_Gunman) JobProgress: {'identifier': 'Wild_Gunman', 'progress': 'build'}
+[0.015534] (Wild_Gunman) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyddl2082/ros2_ws/build/Wild_Gunman', '--', '-j18', '-l18'], 'cwd': '/home/dyddl2082/ros2_ws/build/Wild_Gunman', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dyddl2082/ros2_ws/install/tutorial_interfaces/lib:/home/dyddl2082/ros2_ws/install/polygon_plugins/lib:/home/dyddl2082/ros2_ws/install/more_interfaces/lib:/home/dyddl2082/ros2_ws/install/action_tutorials_cpp/lib:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/718_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/two_joint_arm:/home/dyddl2082/ros2_ws/install/tutorial_interfaces:/home/dyddl2082/ros2_ws/install/polygon_plugins:/home/dyddl2082/ros2_ws/install/polygon_base:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/more_interfaces:/home/dyddl2082/ros2_ws/install/cpp_srvcli:/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/action_tutorials_cpp:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces:/home/dyddl2082/ros2_ws/install/Wild_Gunman:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/Wild_Gunman'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyddl2082/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/two_joint_arm:/home/dyddl2082/ros2_ws/install/tutorial_interfaces:/home/dyddl2082/ros2_ws/install/polygon_plugins:/home/dyddl2082/ros2_ws/install/polygon_base:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/more_interfaces:/home/dyddl2082/ros2_ws/install/cpp_srvcli:/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/action_tutorials_cpp:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces:/home/dyddl2082/ros2_ws/install/Wild_Gunman:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.099049] (-) TimerEvent: {}
+[0.118208] (Wild_Gunman) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target player\x1b[0m\n'}
+[0.144379] (Wild_Gunman) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/player.dir/src/Player.cpp.o\x1b[0m\n'}
+[0.167327] (Wild_Gunman) StdoutLine: {'line': b'[ 75%] Built target gunman\n'}
+[0.199161] (-) TimerEvent: {}
+[0.299616] (-) TimerEvent: {}
+[0.400124] (-) TimerEvent: {}
+[0.500579] (-) TimerEvent: {}
+[0.600980] (-) TimerEvent: {}
+[0.701380] (-) TimerEvent: {}
+[0.801816] (-) TimerEvent: {}
+[0.902217] (-) TimerEvent: {}
+[1.002652] (-) TimerEvent: {}
+[1.103184] (-) TimerEvent: {}
+[1.203588] (-) TimerEvent: {}
+[1.304029] (-) TimerEvent: {}
+[1.404558] (-) TimerEvent: {}
+[1.505006] (-) TimerEvent: {}
+[1.605416] (-) TimerEvent: {}
+[1.705878] (-) TimerEvent: {}
+[1.806465] (-) TimerEvent: {}
+[1.906898] (-) TimerEvent: {}
+[2.007376] (-) TimerEvent: {}
+[2.107910] (-) TimerEvent: {}
+[2.208399] (-) TimerEvent: {}
+[2.309459] (-) TimerEvent: {}
+[2.410425] (-) TimerEvent: {}
+[2.510966] (-) TimerEvent: {}
+[2.611569] (-) TimerEvent: {}
+[2.712284] (-) TimerEvent: {}
+[2.812806] (-) TimerEvent: {}
+[2.913713] (-) TimerEvent: {}
+[3.014185] (-) TimerEvent: {}
+[3.114635] (-) TimerEvent: {}
+[3.215164] (-) TimerEvent: {}
+[3.315557] (-) TimerEvent: {}
+[3.416161] (-) TimerEvent: {}
+[3.517003] (-) TimerEvent: {}
+[3.617398] (-) TimerEvent: {}
+[3.717850] (-) TimerEvent: {}
+[3.818306] (-) TimerEvent: {}
+[3.918909] (-) TimerEvent: {}
+[4.019331] (-) TimerEvent: {}
+[4.119747] (-) TimerEvent: {}
+[4.220142] (-) TimerEvent: {}
+[4.320788] (-) TimerEvent: {}
+[4.421575] (-) TimerEvent: {}
+[4.495290] (Wild_Gunman) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable player\x1b[0m\n'}
+[4.521735] (-) TimerEvent: {}
+[4.622294] (-) TimerEvent: {}
+[4.722761] (-) TimerEvent: {}
+[4.823215] (-) TimerEvent: {}
+[4.917155] (Wild_Gunman) StdoutLine: {'line': b'[100%] Built target player\n'}
+[4.923409] (-) TimerEvent: {}
+[4.928058] (Wild_Gunman) CommandEnded: {'returncode': 0}
+[4.929959] (Wild_Gunman) JobProgress: {'identifier': 'Wild_Gunman', 'progress': 'install'}
+[4.942150] (Wild_Gunman) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyddl2082/ros2_ws/build/Wild_Gunman'], 'cwd': '/home/dyddl2082/ros2_ws/build/Wild_Gunman', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dyddl2082/ros2_ws/install/tutorial_interfaces/lib:/home/dyddl2082/ros2_ws/install/polygon_plugins/lib:/home/dyddl2082/ros2_ws/install/more_interfaces/lib:/home/dyddl2082/ros2_ws/install/action_tutorials_cpp/lib:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/718_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/two_joint_arm:/home/dyddl2082/ros2_ws/install/tutorial_interfaces:/home/dyddl2082/ros2_ws/install/polygon_plugins:/home/dyddl2082/ros2_ws/install/polygon_base:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/more_interfaces:/home/dyddl2082/ros2_ws/install/cpp_srvcli:/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/action_tutorials_cpp:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces:/home/dyddl2082/ros2_ws/install/Wild_Gunman:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/Wild_Gunman'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyddl2082/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/two_joint_arm:/home/dyddl2082/ros2_ws/install/tutorial_interfaces:/home/dyddl2082/ros2_ws/install/polygon_plugins:/home/dyddl2082/ros2_ws/install/polygon_base:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/more_interfaces:/home/dyddl2082/ros2_ws/install/cpp_srvcli:/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/action_tutorials_cpp:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces:/home/dyddl2082/ros2_ws/install/Wild_Gunman:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[4.949430] (Wild_Gunman) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.949824] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/lib/Wild_Gunman/gunman\n'}
+[4.950440] (Wild_Gunman) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/lib/Wild_Gunman/player\n'}
+[4.951864] (Wild_Gunman) StdoutLine: {'line': b'-- Set runtime path of "/home/dyddl2082/ros2_ws/install/Wild_Gunman/lib/Wild_Gunman/player" to ""\n'}
+[4.952186] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/ament_index/resource_index/package_run_dependencies/Wild_Gunman\n'}
+[4.952330] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/ament_index/resource_index/parent_prefix_path/Wild_Gunman\n'}
+[4.952371] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/environment/ament_prefix_path.sh\n'}
+[4.952403] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/environment/ament_prefix_path.dsv\n'}
+[4.952432] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/environment/path.sh\n'}
+[4.952461] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/environment/path.dsv\n'}
+[4.952487] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/local_setup.bash\n'}
+[4.952524] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/local_setup.sh\n'}
+[4.952550] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/local_setup.zsh\n'}
+[4.952576] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/local_setup.dsv\n'}
+[4.952602] (Wild_Gunman) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/package.dsv\n'}
+[4.953172] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/ament_index/resource_index/packages/Wild_Gunman\n'}
+[4.953317] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/cmake/Wild_GunmanConfig.cmake\n'}
+[4.953350] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/cmake/Wild_GunmanConfig-version.cmake\n'}
+[4.953467] (Wild_Gunman) StdoutLine: {'line': b'-- Up-to-date: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/package.xml\n'}
+[4.955924] (Wild_Gunman) CommandEnded: {'returncode': 0}
+[4.979888] (Wild_Gunman) JobEnded: {'identifier': 'Wild_Gunman', 'rc': 0}
+[4.980990] (-) EventReactorShutdown: {}

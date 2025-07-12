@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000723] (two_joint_arm) JobQueued: {'identifier': 'two_joint_arm', 'dependencies': OrderedDict()}
+[0.000766] (two_joint_arm) JobStarted: {'identifier': 'two_joint_arm'}
+[0.016995] (two_joint_arm) JobProgress: {'identifier': 'two_joint_arm', 'progress': 'cmake'}
+[0.019465] (two_joint_arm) Command: {'cmd': ['/usr/bin/cmake', '/home/dyddl2082/ros2_ws/src/two_joint_arm', '-DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/two_joint_arm'], 'cwd': '/home/dyddl2082/ros2_ws/build/two_joint_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src/two_joint_arm'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/965_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('WT_SESSION', '8932b01d-3b4a-4a6b-a60a-90d7de2c1f23'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/two_joint_arm'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099815] (-) TimerEvent: {}
+[0.200286] (-) TimerEvent: {}
+[0.300665] (-) TimerEvent: {}
+[0.401102] (-) TimerEvent: {}
+[0.501556] (-) TimerEvent: {}
+[0.510658] (two_joint_arm) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.601733] (-) TimerEvent: {}
+[0.702225] (-) TimerEvent: {}
+[0.802749] (-) TimerEvent: {}
+[0.903493] (-) TimerEvent: {}
+[1.003964] (-) TimerEvent: {}
+[1.104509] (-) TimerEvent: {}
+[1.205160] (-) TimerEvent: {}
+[1.261228] (two_joint_arm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.305301] (-) TimerEvent: {}
+[1.405672] (-) TimerEvent: {}
+[1.506062] (-) TimerEvent: {}
+[1.578705] (two_joint_arm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.606264] (-) TimerEvent: {}
+[1.706871] (-) TimerEvent: {}
+[1.807367] (-) TimerEvent: {}
+[1.884691] (two_joint_arm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.896627] (two_joint_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.907582] (-) TimerEvent: {}
+[2.008265] (-) TimerEvent: {}
+[2.109007] (-) TimerEvent: {}
+[2.196779] (two_joint_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.209165] (-) TimerEvent: {}
+[2.212081] (two_joint_arm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.212605] (two_joint_arm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.215338] (two_joint_arm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.309320] (-) TimerEvent: {}
+[2.409703] (-) TimerEvent: {}
+[2.459698] (two_joint_arm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.460423] (two_joint_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.509897] (-) TimerEvent: {}
+[2.610585] (-) TimerEvent: {}
+[2.711153] (-) TimerEvent: {}
+[2.732582] (two_joint_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.739705] (two_joint_arm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.740135] (two_joint_arm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.760344] (two_joint_arm) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.783367] (two_joint_arm) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.783617] (two_joint_arm) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.811296] (-) TimerEvent: {}
+[2.911633] (-) TimerEvent: {}
+[2.937577] (two_joint_arm) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[2.940000] (two_joint_arm) StdoutLine: {'line': b'-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)\n'}
+[3.011788] (-) TimerEvent: {}
+[3.112255] (-) TimerEvent: {}
+[3.212808] (-) TimerEvent: {}
+[3.313201] (-) TimerEvent: {}
+[3.413648] (-) TimerEvent: {}
+[3.514064] (-) TimerEvent: {}
+[3.614502] (-) TimerEvent: {}
+[3.715088] (-) TimerEvent: {}
+[3.815742] (-) TimerEvent: {}
+[3.916239] (-) TimerEvent: {}
+[4.016776] (-) TimerEvent: {}
+[4.117339] (-) TimerEvent: {}
+[4.217950] (-) TimerEvent: {}
+[4.318422] (-) TimerEvent: {}
+[4.418866] (-) TimerEvent: {}
+[4.519486] (-) TimerEvent: {}
+[4.619882] (-) TimerEvent: {}
+[4.720330] (-) TimerEvent: {}
+[4.820740] (-) TimerEvent: {}
+[4.921204] (-) TimerEvent: {}
+[5.021664] (-) TimerEvent: {}
+[5.122059] (-) TimerEvent: {}
+[5.222491] (-) TimerEvent: {}
+[5.322879] (-) TimerEvent: {}
+[5.423378] (-) TimerEvent: {}
+[5.523757] (-) TimerEvent: {}
+[5.624177] (-) TimerEvent: {}
+[5.724738] (-) TimerEvent: {}
+[5.754039] (two_joint_arm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.824876] (-) TimerEvent: {}
+[5.843983] (two_joint_arm) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.846465] (two_joint_arm) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.847272] (two_joint_arm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.848307] (two_joint_arm) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.849164] (two_joint_arm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.851242] (two_joint_arm) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.855632] (two_joint_arm) StdoutLine: {'line': b'-- Generating done\n'}
+[5.856545] (two_joint_arm) StdoutLine: {'line': b'-- Build files have been written to: /home/dyddl2082/ros2_ws/build/two_joint_arm\n'}
+[5.863377] (two_joint_arm) CommandEnded: {'returncode': 0}
+[5.864161] (two_joint_arm) JobProgress: {'identifier': 'two_joint_arm', 'progress': 'build'}
+[5.864195] (two_joint_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyddl2082/ros2_ws/build/two_joint_arm', '--', '-j18', '-l18'], 'cwd': '/home/dyddl2082/ros2_ws/build/two_joint_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src/two_joint_arm'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/965_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('WT_SESSION', '8932b01d-3b4a-4a6b-a60a-90d7de2c1f23'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/two_joint_arm'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.893326] (two_joint_arm) CommandEnded: {'returncode': 0}
+[5.895325] (two_joint_arm) JobProgress: {'identifier': 'two_joint_arm', 'progress': 'install'}
+[5.902342] (two_joint_arm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyddl2082/ros2_ws/build/two_joint_arm'], 'cwd': '/home/dyddl2082/ros2_ws/build/two_joint_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src/two_joint_arm'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/965_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('WT_SESSION', '8932b01d-3b4a-4a6b-a60a-90d7de2c1f23'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/two_joint_arm'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.911585] (two_joint_arm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.912015] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm//urdf\n'}
+[5.912066] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm//urdf/two_joint_arm.urdf\n'}
+[5.912319] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm//launch\n'}
+[5.912519] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm//launch/display.launch.py\n'}
+[5.913140] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/ament_index/resource_index/package_run_dependencies/two_joint_arm\n'}
+[5.913447] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/ament_index/resource_index/parent_prefix_path/two_joint_arm\n'}
+[5.913903] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/ament_prefix_path.sh\n'}
+[5.914111] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/ament_prefix_path.dsv\n'}
+[5.914474] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/path.sh\n'}
+[5.914725] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/path.dsv\n'}
+[5.914771] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.bash\n'}
+[5.914807] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.sh\n'}
+[5.914838] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.zsh\n'}
+[5.914999] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.dsv\n'}
+[5.915080] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/package.dsv\n'}
+[5.915111] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/ament_index/resource_index/packages/two_joint_arm\n'}
+[5.915229] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/cmake/two_joint_armConfig.cmake\n'}
+[5.915258] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/cmake/two_joint_armConfig-version.cmake\n'}
+[5.915575] (two_joint_arm) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/package.xml\n'}
+[5.917764] (two_joint_arm) CommandEnded: {'returncode': 0}
+[5.924987] (-) TimerEvent: {}
+[5.939425] (two_joint_arm) JobEnded: {'identifier': 'two_joint_arm', 'rc': 0}
+[5.940261] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+Invoking command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/cpp_srvcli
+Invoked command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/cpp_srvcli
+Invoking command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/cpp_srvcli -- -j18 -l18
+Invoked command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/cpp_srvcli -- -j18 -l18
+Invoking command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/cpp_srvcli
+Invoked command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/cpp_srvcli

@@ -1,0 +1,88 @@
+[0.016s] Invoking command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/Wild_Gunman -- -j18 -l18
+[0.053s] [35m[1mScanning dependencies of target gunman[0m
+[0.064s] [ 25%] [32mBuilding CXX object CMakeFiles/player.dir/src/Player.cpp.o[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/gunman.dir/src/Shooter.cpp.o[0m
+[1.214s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:87:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.214s]    87 | }
+[1.214s]       |  [01;31m[K^[m[K
+[1.214s]       |  [32m[K;[m[K
+[1.224s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:[m[K In constructor ‘[01m[KPlayer::Player()[m[K’:
+[1.224s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:35:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.224s]    35 |             })
+[1.224s]       |               [01;31m[K^[m[K
+[1.224s]       |               [32m[K;[m[K
+[1.224s]    36 |         [32m[K}[m[K
+[1.224s]       |         [32m[K~[m[K      
+[1.224s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:[m[K In member function ‘[01m[Kvoid Player::input_loop()[m[K’:
+[1.224s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:58:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreaction_pub_[m[K’
+[1.225s]    58 |                         msg.data = "Reacted"
+[1.225s]       |                                             [01;31m[K^[m[K
+[1.225s]       |                                             [32m[K;[m[K
+[1.225s]    59 |                         [32m[Kreaction_pub_[m[K->publish(msg);
+[1.225s]       |                         [32m[K~~~~~~~~~~~~~[m[K        
+[1.235s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:[m[K In lambda function:
+[1.235s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:75:49:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[1.235s]    75 |                     std::this_thread::sleep_for([01;31m[K1s[m[K);
+[1.235s]       |                                                 [01;31m[K^~[m[K
+[1.242s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:102:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.242s]   102 | }
+[1.242s]       |  [01;31m[K^[m[K
+[1.242s]       |  [32m[K;[m[K
+[1.250s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:[m[K In constructor ‘[01m[KGunman::Gunman()[m[K’:
+[1.250s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:20:81:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[1.250s]    20 |                 std::bind(&Gunman::on_start_signal, this, std::placeholders::_1)[01;31m[K;[m[K
+[1.250s]       |                                                                                 [01;31m[K^[m[K
+[1.250s]       |                                                                                 [32m[K)[m[K
+[1.250s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:18:74:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.250s]    18 |             start_sub_ = this->create_subscription<std_msgs::msg::String>[01;36m[K([m[K
+[1.250s]       |                                                                          [01;36m[K^[m[K
+[1.250s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:21:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.250s]    21 |             [01;31m[K)[m[K;
+[1.250s]       |             [01;31m[K^[m[K
+[1.250s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:25:77:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[1.250s]    25 |                 std::bind(&Gunman::on_reaction, this, std::placeholders::_1)[01;31m[K;[m[K
+[1.250s]       |                                                                             [01;31m[K^[m[K
+[1.250s]       |                                                                             [32m[K)[m[K
+[1.250s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:23:77:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.250s]    23 |             reaction_sub_ = this->create_subscription<std_msgs::msg::String>[01;36m[K([m[K
+[1.250s]       |                                                                             [01;36m[K^[m[K
+[1.250s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:26:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.250s]    26 |             [01;31m[K)[m[K;
+[1.250s]       |             [01;31m[K^[m[K
+[1.269s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:[m[K In member function ‘[01m[Kvoid Gunman::shoot()[m[K’:
+[1.270s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:72:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[1.270s]    72 |                 1s, std::bind(&Gunman::declare_win, this)[01;31m[K;[m[K
+[1.270s]       |                                                          [01;31m[K^[m[K
+[1.270s]       |                                                          [32m[K)[m[K
+[1.270s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:71:59:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.270s]    71 |             wait_response_timer_ = this->create_wall_timer[01;36m[K([m[K
+[1.270s]       |                                                           [01;36m[K^[m[K
+[1.270s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:73:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.270s]    73 |             [01;31m[K)[m[K
+[1.270s]       |             [01;31m[K^[m[K
+[1.270s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:[m[K In member function ‘[01m[Kvoid Gunman::on_reaction(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.270s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:78:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreset_state[m[K’
+[1.270s]    78 |                 send_result("Player win!")
+[1.270s]       |                                           [01;31m[K^[m[K
+[1.270s]       |                                           [32m[K;[m[K
+[1.270s]    79 |                 [32m[Kreset_state[m[K();
+[1.270s]       |                 [32m[K~~~~~~~~~~~[m[K                
+[1.270s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:[m[K In member function ‘[01m[Kvoid Gunman::declare_win()[m[K’:
+[1.270s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:85:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreset_state[m[K’
+[1.270s]    85 |                 send_result("Gunman win!")
+[1.270s]       |                                           [01;31m[K^[m[K
+[1.270s]       |                                           [32m[K;[m[K
+[1.270s]    86 |                 [32m[Kreset_state[m[K();
+[1.270s]       |                 [32m[K~~~~~~~~~~~[m[K                
+[1.271s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:[m[K In member function ‘[01m[Kvoid Gunman::reset_state()[m[K’:
+[1.271s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:99:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kwait_respoonse_timer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kwait_response_timer_[m[K’?
+[1.271s]    99 |             [01;31m[Kwait_respoonse_timer_[m[K.reset();
+[1.271s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.271s]       |             [32m[Kwait_response_timer_[m[K
+[2.109s] make[2]: *** [CMakeFiles/gunman.dir/build.make:63: CMakeFiles/gunman.dir/src/Shooter.cpp.o] Error 1
+[2.109s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/gunman.dir/all] Error 2
+[2.109s] make[1]: *** Waiting for unfinished jobs....
+[2.574s] make[2]: *** [CMakeFiles/player.dir/build.make:63: CMakeFiles/player.dir/src/Player.cpp.o] Error 1
+[2.574s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/player.dir/all] Error 2
+[2.574s] make: *** [Makefile:141: all] Error 2
+[2.578s] Invoked command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/Wild_Gunman -- -j18 -l18

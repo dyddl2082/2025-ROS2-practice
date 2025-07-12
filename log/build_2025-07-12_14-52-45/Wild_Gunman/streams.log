@@ -1,0 +1,21 @@
+[0.023s] Invoking command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/Wild_Gunman -- -j18 -l18
+[0.123s] [35m[1mScanning dependencies of target gunman[0m
+[0.123s] [35m[1mScanning dependencies of target player[0m
+[0.156s] [ 25%] [32mBuilding CXX object CMakeFiles/gunman.dir/src/Shooter.cpp.o[0m
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/player.dir/src/Player.cpp.o[0m
+[1.476s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:[m[K In member function ‘[01m[Kvoid Gunman::reset_state()[m[K’:
+[1.476s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:99:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kwait_respoonse_timer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kwait_response_timer_[m[K’?
+[1.476s]    99 |             [01;31m[Kwait_respoonse_timer_[m[K.reset();
+[1.476s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.476s]       |             [32m[Kwait_response_timer_[m[K
+[1.529s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:[m[K In lambda function:
+[1.530s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:75:49:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[1.530s]    75 |                     std::this_thread::sleep_for([01;31m[K1s[m[K);
+[1.530s]       |                                                 [01;31m[K^~[m[K
+[2.879s] make[2]: *** [CMakeFiles/gunman.dir/build.make:63: CMakeFiles/gunman.dir/src/Shooter.cpp.o] Error 1
+[2.879s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/gunman.dir/all] Error 2
+[2.879s] make[1]: *** Waiting for unfinished jobs....
+[2.893s] make[2]: *** [CMakeFiles/player.dir/build.make:63: CMakeFiles/player.dir/src/Player.cpp.o] Error 1
+[2.893s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/player.dir/all] Error 2
+[2.894s] make: *** [Makefile:141: all] Error 2
+[2.896s] Invoked command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/Wild_Gunman -- -j18 -l18

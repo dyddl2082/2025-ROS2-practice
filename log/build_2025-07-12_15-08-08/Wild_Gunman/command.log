@@ -1,0 +1,4 @@
+Invoking command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/Wild_Gunman -- -j18 -l18
+Invoked command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/Wild_Gunman -- -j18 -l18
+Invoking command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/Wild_Gunman
+Invoked command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/Wild_Gunman

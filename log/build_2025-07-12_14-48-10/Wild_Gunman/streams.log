@@ -1,0 +1,30 @@
+[0.020s] Invoking command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/Wild_Gunman -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/Wild_Gunman
+[0.556s] -- The C compiler identification is GNU 9.4.0
+[1.203s] -- The CXX compiler identification is GNU 9.4.0
+[1.580s] -- Check for working C compiler: /usr/bin/cc
+[1.928s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.930s] -- Detecting C compiler ABI info
+[2.262s] -- Detecting C compiler ABI info - done
+[2.284s] -- Detecting C compile features
+[2.285s] -- Detecting C compile features - done
+[2.292s] -- Check for working CXX compiler: /usr/bin/c++
+[2.616s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.618s] -- Detecting CXX compiler ABI info
+[2.951s] -- Detecting CXX compiler ABI info - done
+[2.963s] -- Detecting CXX compile features
+[2.963s] -- Detecting CXX compile features - done
+[2.991s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.023s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.023s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.190s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.238s] WARNING: Package name "Wild_Gunman" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[3.272s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[3.272s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[3.272s]   before
+[3.272s] Call Stack (most recent call first):
+[3.272s]   CMakeLists.txt:36 (ament_target_dependencies)
+[3.272s] 
+[3.273s] 
+[3.273s] -- Configuring incomplete, errors occurred!
+[3.273s] See also "/home/dyddl2082/ros2_ws/build/Wild_Gunman/CMakeFiles/CMakeOutput.log".
+[3.276s] Invoked command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/Wild_Gunman -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/Wild_Gunman

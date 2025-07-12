@@ -1,0 +1,60 @@
+[0.175s] Invoking command in '/home/dyddl2082/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/polygon_plugins
+[0.186s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.206s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.330s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.332s] -- Found polygon_base: 0.0.0 (/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[0.333s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[3.003s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.074s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.075s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.075s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dyddl2082/ros2_ws/src/polygon_plugins/include>
+[3.075s] -- Configured cppcheck exclude dirs and/or files: 
+[3.075s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.075s] -- Configured cpplint exclude dirs and/or files: 
+[3.075s] -- Added test 'lint_cmake' to check CMake code style
+[3.077s] -- Added test 'uncrustify' to check C / C++ code style
+[3.077s] -- Configured uncrustify additional arguments: 
+[3.077s] -- Added test 'xmllint' to check XML markup files
+[3.079s] -- Configuring done
+[3.082s] -- Generating done
+[3.084s] -- Build files have been written to: /home/dyddl2082/ros2_ws/build/polygon_plugins
+[3.091s] Invoked command in '/home/dyddl2082/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/polygon_plugins
+[3.092s] Invoking command in '/home/dyddl2082/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/polygon_plugins -- -j18 -l18
+[3.121s] [35m[1mScanning dependencies of target polygon_plugins[0m
+[3.137s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[3.682s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[4.048s] [100%] Built target polygon_plugins
+[4.057s] Invoked command in '/home/dyddl2082/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/polygon_plugins -- -j18 -l18
+[4.062s] Invoking command in '/home/dyddl2082/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/polygon_plugins
+[4.066s] -- Install configuration: ""
+[4.066s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[4.068s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+[4.068s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[4.068s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/include
+[4.068s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/include/polygon_plugins
+[4.068s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[4.069s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[4.070s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[4.071s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[4.072s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[4.072s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[4.072s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[4.072s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[4.072s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[4.073s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[4.073s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[4.073s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[4.073s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[4.073s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[4.073s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+[4.073s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[4.073s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[4.073s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[4.074s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[4.074s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.074s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[4.074s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[4.074s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[4.074s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[4.074s] -- Installing: /home/dyddl2082/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+[4.077s] Invoked command in '/home/dyddl2082/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/polygon_plugins

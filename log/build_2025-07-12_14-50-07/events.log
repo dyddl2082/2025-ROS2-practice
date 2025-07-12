@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000168] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000198] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000223] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000302] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000326] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000352] (Wild_Gunman) JobQueued: {'identifier': 'Wild_Gunman', 'dependencies': OrderedDict()}
+[0.001102] (Wild_Gunman) JobStarted: {'identifier': 'Wild_Gunman'}
+[0.008417] (Wild_Gunman) JobProgress: {'identifier': 'Wild_Gunman', 'progress': 'cmake'}
+[0.009253] (Wild_Gunman) JobProgress: {'identifier': 'Wild_Gunman', 'progress': 'build'}
+[0.009811] (Wild_Gunman) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyddl2082/ros2_ws/build/Wild_Gunman', '--', '-j18', '-l18'], 'cwd': '/home/dyddl2082/ros2_ws/build/Wild_Gunman', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/718_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/Wild_Gunman'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.053816] (Wild_Gunman) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gunman\x1b[0m\n'}
+[0.064937] (Wild_Gunman) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/player.dir/src/Player.cpp.o\x1b[0m\n'}
+[0.072720] (Wild_Gunman) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gunman.dir/src/Shooter.cpp.o\x1b[0m\n'}
+[0.099966] (-) TimerEvent: {}
+[0.200602] (-) TimerEvent: {}
+[0.301183] (-) TimerEvent: {}
+[0.401619] (-) TimerEvent: {}
+[0.502281] (-) TimerEvent: {}
+[0.602791] (-) TimerEvent: {}
+[0.703338] (-) TimerEvent: {}
+[0.803875] (-) TimerEvent: {}
+[0.904411] (-) TimerEvent: {}
+[1.004876] (-) TimerEvent: {}
+[1.105277] (-) TimerEvent: {}
+[1.205863] (-) TimerEvent: {}
+[1.214786] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:87:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[1.215131] (Wild_Gunman) StderrLine: {'line': b'   87 | }\n'}
+[1.215207] (Wild_Gunman) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.215257] (Wild_Gunman) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.224647] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPlayer::Player()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.224820] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:35:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.224856] (Wild_Gunman) StderrLine: {'line': b'   35 |             })\n'}
+[1.224883] (Wild_Gunman) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.224909] (Wild_Gunman) StderrLine: {'line': b'      |               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.224934] (Wild_Gunman) StderrLine: {'line': b'   36 |         \x1b[32m\x1b[K}\x1b[m\x1b[K\n'}
+[1.224960] (Wild_Gunman) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~\x1b[m\x1b[K      \n'}
+[1.225545] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Player::input_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.225682] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:58:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreaction_pub_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.225740] (Wild_Gunman) StderrLine: {'line': b'   58 |                         msg.data = "Reacted"\n'}
+[1.225790] (Wild_Gunman) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.225836] (Wild_Gunman) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.225897] (Wild_Gunman) StderrLine: {'line': b'   59 |                         \x1b[32m\x1b[Kreaction_pub_\x1b[m\x1b[K->publish(msg);\n'}
+[1.225984] (Wild_Gunman) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K        \n'}
+[1.235618] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[1.235773] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:75:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""s\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.235811] (Wild_Gunman) StderrLine: {'line': b'   75 |                     std::this_thread::sleep_for(\x1b[01;31m\x1b[K1s\x1b[m\x1b[K);\n'}
+[1.235844] (Wild_Gunman) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.243312] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:102:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[1.243563] (Wild_Gunman) StderrLine: {'line': b'  102 | }\n'}
+[1.243622] (Wild_Gunman) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.243671] (Wild_Gunman) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.250697] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGunman::Gunman()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.250876] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:20:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.250941] (Wild_Gunman) StderrLine: {'line': b'   20 |                 std::bind(&Gunman::on_start_signal, this, std::placeholders::_1)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[1.250985] (Wild_Gunman) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.251014] (Wild_Gunman) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.251039] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:18:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.251065] (Wild_Gunman) StderrLine: {'line': b'   18 |             start_sub_ = this->create_subscription<std_msgs::msg::String>\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.251089] (Wild_Gunman) StderrLine: {'line': b'      |                                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.251113] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:21:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.251137] (Wild_Gunman) StderrLine: {'line': b'   21 |             \x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.251161] (Wild_Gunman) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.251185] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:25:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.251209] (Wild_Gunman) StderrLine: {'line': b'   25 |                 std::bind(&Gunman::on_reaction, this, std::placeholders::_1)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[1.251271] (Wild_Gunman) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.251310] (Wild_Gunman) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.251336] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:23:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.251363] (Wild_Gunman) StderrLine: {'line': b'   23 |             reaction_sub_ = this->create_subscription<std_msgs::msg::String>\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.251388] (Wild_Gunman) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.251440] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:26:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.251475] (Wild_Gunman) StderrLine: {'line': b'   26 |             \x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.251502] (Wild_Gunman) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.270203] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Gunman::shoot()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.270486] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:72:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.270863] (Wild_Gunman) StderrLine: {'line': b'   72 |                 1s, std::bind(&Gunman::declare_win, this)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[1.270961] (Wild_Gunman) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.271000] (Wild_Gunman) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.271030] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:71:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.271059] (Wild_Gunman) StderrLine: {'line': b'   71 |             wait_response_timer_ = this->create_wall_timer\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[1.271086] (Wild_Gunman) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.271110] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:73:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.271138] (Wild_Gunman) StderrLine: {'line': b'   73 |             \x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[1.271163] (Wild_Gunman) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.271187] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Gunman::on_reaction(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.271213] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:78:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreset_state\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.271239] (Wild_Gunman) StderrLine: {'line': b'   78 |                 send_result("Player win!")\n'}
+[1.271263] (Wild_Gunman) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.271297] (Wild_Gunman) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.271320] (Wild_Gunman) StderrLine: {'line': b'   79 |                 \x1b[32m\x1b[Kreset_state\x1b[m\x1b[K();\n'}
+[1.271343] (Wild_Gunman) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K                \n'}
+[1.271365] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Gunman::declare_win()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.271387] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:85:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreset_state\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.271411] (Wild_Gunman) StderrLine: {'line': b'   85 |                 send_result("Gunman win!")\n'}
+[1.271434] (Wild_Gunman) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.271456] (Wild_Gunman) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.271479] (Wild_Gunman) StderrLine: {'line': b'   86 |                 \x1b[32m\x1b[Kreset_state\x1b[m\x1b[K();\n'}
+[1.271501] (Wild_Gunman) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K                \n'}
+[1.272521] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Gunman::reset_state()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.272590] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:99:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwait_respoonse_timer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwait_response_timer_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.272618] (Wild_Gunman) StderrLine: {'line': b'   99 |             \x1b[01;31m\x1b[Kwait_respoonse_timer_\x1b[m\x1b[K.reset();\n'}
+[1.272644] (Wild_Gunman) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.272670] (Wild_Gunman) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kwait_response_timer_\x1b[m\x1b[K\n'}
+[1.306016] (-) TimerEvent: {}
+[1.406459] (-) TimerEvent: {}
+[1.506869] (-) TimerEvent: {}
+[1.607338] (-) TimerEvent: {}
+[1.707794] (-) TimerEvent: {}
+[1.808259] (-) TimerEvent: {}
+[1.908742] (-) TimerEvent: {}
+[2.009283] (-) TimerEvent: {}
+[2.109681] (-) TimerEvent: {}
+[2.110140] (Wild_Gunman) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gunman.dir/build.make:63: CMakeFiles/gunman.dir/src/Shooter.cpp.o] Error 1\n'}
+[2.110319] (Wild_Gunman) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/gunman.dir/all] Error 2\n'}
+[2.110407] (Wild_Gunman) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[2.209865] (-) TimerEvent: {}
+[2.310299] (-) TimerEvent: {}
+[2.410819] (-) TimerEvent: {}
+[2.511244] (-) TimerEvent: {}
+[2.575241] (Wild_Gunman) StderrLine: {'line': b'make[2]: *** [CMakeFiles/player.dir/build.make:63: CMakeFiles/player.dir/src/Player.cpp.o] Error 1\n'}
+[2.575456] (Wild_Gunman) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/player.dir/all] Error 2\n'}
+[2.575586] (Wild_Gunman) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.578541] (Wild_Gunman) CommandEnded: {'returncode': 2}
+[2.584886] (Wild_Gunman) JobEnded: {'identifier': 'Wild_Gunman', 'rc': 2}
+[2.586424] (-) EventReactorShutdown: {}

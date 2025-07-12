@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000273] (polygon_base) JobQueued: {'identifier': 'polygon_base', 'dependencies': OrderedDict()}
+[0.000285] (polygon_plugins) JobQueued: {'identifier': 'polygon_plugins', 'dependencies': OrderedDict([('polygon_base', '/home/dyddl2082/ros2_ws/install/polygon_base')])}
+[0.000314] (polygon_base) JobStarted: {'identifier': 'polygon_base'}
+[0.009737] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'cmake'}
+[0.010753] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'build'}
+[0.010977] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyddl2082/ros2_ws/build/polygon_base', '--', '-j18', '-l18'], 'cwd': '/home/dyddl2082/ros2_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/719_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/polygon_base'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.049661] (polygon_base) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target area_node\x1b[0m\n'}
+[0.058603] (polygon_base) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o\x1b[0m\n'}
+[0.098565] (-) TimerEvent: {}
+[0.198981] (-) TimerEvent: {}
+[0.299557] (-) TimerEvent: {}
+[0.400020] (-) TimerEvent: {}
+[0.500550] (-) TimerEvent: {}
+[0.601128] (-) TimerEvent: {}
+[0.701686] (-) TimerEvent: {}
+[0.802411] (-) TimerEvent: {}
+[0.902872] (-) TimerEvent: {}
+[1.003378] (-) TimerEvent: {}
+[1.103967] (-) TimerEvent: {}
+[1.204793] (-) TimerEvent: {}
+[1.305293] (-) TimerEvent: {}
+[1.405738] (-) TimerEvent: {}
+[1.506238] (-) TimerEvent: {}
+[1.606643] (-) TimerEvent: {}
+[1.707116] (-) TimerEvent: {}
+[1.807680] (-) TimerEvent: {}
+[1.908310] (-) TimerEvent: {}
+[2.008705] (-) TimerEvent: {}
+[2.109202] (-) TimerEvent: {}
+[2.209603] (-) TimerEvent: {}
+[2.310204] (-) TimerEvent: {}
+[2.410825] (-) TimerEvent: {}
+[2.504722] (polygon_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable area_node\x1b[0m\n'}
+[2.511079] (-) TimerEvent: {}
+[2.611526] (-) TimerEvent: {}
+[2.711908] (-) TimerEvent: {}
+[2.788510] (polygon_base) StdoutLine: {'line': b'[100%] Built target area_node\n'}
+[2.797248] (polygon_base) CommandEnded: {'returncode': 0}
+[2.798982] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'install'}
+[2.806984] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyddl2082/ros2_ws/build/polygon_base'], 'cwd': '/home/dyddl2082/ros2_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/719_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/polygon_base'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.812005] (-) TimerEvent: {}
+[2.814093] (polygon_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.814333] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/include\n'}
+[2.814570] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/include/polygon_base\n'}
+[2.814647] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp\n'}
+[2.815019] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/lib/polygon_base/area_node\n'}
+[2.815643] (polygon_base) StdoutLine: {'line': b'-- Set runtime path of "/home/dyddl2082/ros2_ws/install/polygon_base/lib/polygon_base/area_node" to ""\n'}
+[2.815887] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base\n'}
+[2.816098] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base\n'}
+[2.816417] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh\n'}
+[2.816576] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv\n'}
+[2.816737] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh\n'}
+[2.816893] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv\n'}
+[2.816989] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash\n'}
+[2.817139] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh\n'}
+[2.817193] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh\n'}
+[2.817321] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv\n'}
+[2.817448] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.dsv\n'}
+[2.817658] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base\n'}
+[2.817888] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.818070] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake\n'}
+[2.818202] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake\n'}
+[2.818327] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.xml\n'}
+[2.820855] (polygon_base) CommandEnded: {'returncode': 0}
+[2.834164] (polygon_base) JobEnded: {'identifier': 'polygon_base', 'rc': 0}
+[2.834703] (polygon_plugins) JobStarted: {'identifier': 'polygon_plugins'}
+[2.912267] (-) TimerEvent: {}
+[3.012695] (-) TimerEvent: {}
+[3.092991] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'cmake'}
+[3.095939] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/dyddl2082/ros2_ws/src/polygon_plugins', '-DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/polygon_plugins'], 'cwd': '/home/dyddl2082/ros2_ws/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/719_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/polygon_base:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/polygon_plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/polygon_base')]), 'shell': False}
+[3.112900] (-) TimerEvent: {}
+[3.213457] (-) TimerEvent: {}
+[3.314016] (-) TimerEvent: {}
+[3.414416] (-) TimerEvent: {}
+[3.457203] (polygon_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.514593] (-) TimerEvent: {}
+[3.615088] (-) TimerEvent: {}
+[3.715540] (-) TimerEvent: {}
+[3.815998] (-) TimerEvent: {}
+[3.916508] (-) TimerEvent: {}
+[4.016972] (-) TimerEvent: {}
+[4.085328] (polygon_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.117234] (-) TimerEvent: {}
+[4.217786] (-) TimerEvent: {}
+[4.318238] (-) TimerEvent: {}
+[4.418881] (-) TimerEvent: {}
+[4.437589] (polygon_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.519093] (-) TimerEvent: {}
+[4.619591] (-) TimerEvent: {}
+[4.720093] (-) TimerEvent: {}
+[4.722413] (polygon_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.723166] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.820284] (-) TimerEvent: {}
+[4.920728] (-) TimerEvent: {}
+[5.003966] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.011220] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.011669] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.013820] (polygon_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[5.020923] (-) TimerEvent: {}
+[5.121366] (-) TimerEvent: {}
+[5.221742] (-) TimerEvent: {}
+[5.290744] (polygon_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.291387] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.321887] (-) TimerEvent: {}
+[5.422278] (-) TimerEvent: {}
+[5.522683] (-) TimerEvent: {}
+[5.530393] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.536980] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.537312] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.538802] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.554678] (polygon_plugins) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.554851] (polygon_plugins) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.622823] (-) TimerEvent: {}
+[5.686777] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[5.696951] (polygon_plugins) StdoutLine: {'line': b'-- Found polygon_base: 0.0.0 (/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/cmake)\n'}
+[5.698060] (polygon_plugins) StdoutLine: {'line': b'-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[5.722968] (-) TimerEvent: {}
+[5.823347] (-) TimerEvent: {}
+[5.923801] (-) TimerEvent: {}
+[6.024278] (-) TimerEvent: {}
+[6.124724] (-) TimerEvent: {}
+[6.225115] (-) TimerEvent: {}
+[6.325691] (-) TimerEvent: {}
+[6.426224] (-) TimerEvent: {}
+[6.526733] (-) TimerEvent: {}
+[6.627266] (-) TimerEvent: {}
+[6.727753] (-) TimerEvent: {}
+[6.828292] (-) TimerEvent: {}
+[6.928765] (-) TimerEvent: {}
+[7.029318] (-) TimerEvent: {}
+[7.129771] (-) TimerEvent: {}
+[7.230234] (-) TimerEvent: {}
+[7.330699] (-) TimerEvent: {}
+[7.431152] (-) TimerEvent: {}
+[7.531886] (-) TimerEvent: {}
+[7.632582] (-) TimerEvent: {}
+[7.733114] (-) TimerEvent: {}
+[7.833598] (-) TimerEvent: {}
+[7.934113] (-) TimerEvent: {}
+[8.034684] (-) TimerEvent: {}
+[8.135220] (-) TimerEvent: {}
+[8.235845] (-) TimerEvent: {}
+[8.336485] (-) TimerEvent: {}
+[8.437153] (-) TimerEvent: {}
+[8.528954] (polygon_plugins) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):\n'}
+[8.529198] (polygon_plugins) StderrLine: {'line': b'  Given plugin description file\n'}
+[8.529247] (polygon_plugins) StderrLine: {'line': b"  '/home/dyddl2082/ros2_ws/src/polygon_plugins/plugins.xml' does not exist\n"}
+[8.529286] (polygon_plugins) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.529321] (polygon_plugins) StderrLine: {'line': b'  CMakeLists.txt:34 (pluginlib_export_plugin_description_file)\n'}
+[8.529357] (polygon_plugins) StderrLine: {'line': b'\n'}
+[8.529390] (polygon_plugins) StderrLine: {'line': b'\n'}
+[8.529584] (polygon_plugins) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.529651] (polygon_plugins) StdoutLine: {'line': b'See also "/home/dyddl2082/ros2_ws/build/polygon_plugins/CMakeFiles/CMakeOutput.log".\n'}
+[8.536989] (polygon_plugins) CommandEnded: {'returncode': 1}
+[8.537476] (-) TimerEvent: {}
+[8.538150] (polygon_plugins) JobEnded: {'identifier': 'polygon_plugins', 'rc': 1}
+[8.548958] (-) EventReactorShutdown: {}

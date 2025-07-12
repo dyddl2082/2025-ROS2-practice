@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':
+ - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml
+
+File 'package.xml' is valid
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml'

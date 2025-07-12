@@ -1,0 +1,35 @@
+[0.016s] Invoking command in '/home/dyddl2082/ros2_ws/build/urdf_tutorial': /usr/bin/cmake /home/dyddl2082/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/urdf_tutorial
+[0.518s] -- The C compiler identification is GNU 9.4.0
+[1.125s] -- The CXX compiler identification is GNU 9.4.0
+[1.444s] -- Check for working C compiler: /usr/bin/cc
+[1.721s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.732s] -- Detecting C compiler ABI info
+[2.012s] -- Detecting C compiler ABI info - done
+[2.027s] -- Detecting C compile features
+[2.028s] -- Detecting C compile features - done
+[2.031s] -- Check for working CXX compiler: /usr/bin/c++
+[2.282s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.282s] -- Detecting CXX compiler ABI info
+[2.526s] -- Detecting CXX compiler ABI info - done
+[2.534s] -- Detecting CXX compile features
+[2.535s] -- Detecting CXX compile features - done
+[5.238s] CMake Error at CMakeLists.txt:4 (find_package):
+[5.238s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[5.239s]   asked CMake to find a package configuration file provided by "catkin", but
+[5.239s]   CMake did not find one.
+[5.239s] 
+[5.239s]   Could not find a package configuration file provided by "catkin" with any
+[5.239s]   of the following names:
+[5.239s] 
+[5.239s]     catkinConfig.cmake
+[5.239s]     catkin-config.cmake
+[5.239s] 
+[5.239s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[5.239s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[5.239s]   provides a separate development package or SDK, be sure it has been
+[5.239s]   installed.
+[5.239s] 
+[5.239s] 
+[5.239s] -- Configuring incomplete, errors occurred!
+[5.240s] See also "/home/dyddl2082/ros2_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+[5.242s] Invoked command in '/home/dyddl2082/ros2_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/dyddl2082/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/urdf_tutorial

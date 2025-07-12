@@ -1,0 +1,54 @@
+[0.019s] Invoking command in '/home/dyddl2082/ros2_ws/build/two_joint_arm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/two_joint_arm -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/two_joint_arm
+[0.510s] -- The C compiler identification is GNU 9.4.0
+[1.261s] -- The CXX compiler identification is GNU 9.4.0
+[1.578s] -- Check for working C compiler: /usr/bin/cc
+[1.884s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.896s] -- Detecting C compiler ABI info
+[2.196s] -- Detecting C compiler ABI info - done
+[2.211s] -- Detecting C compile features
+[2.212s] -- Detecting C compile features - done
+[2.215s] -- Check for working CXX compiler: /usr/bin/c++
+[2.459s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.460s] -- Detecting CXX compiler ABI info
+[2.732s] -- Detecting CXX compiler ABI info - done
+[2.739s] -- Detecting CXX compile features
+[2.740s] -- Detecting CXX compile features - done
+[2.760s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.783s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.783s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.937s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[2.939s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[5.753s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.843s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.846s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.847s] -- Added test 'lint_cmake' to check CMake code style
+[5.848s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.849s] -- Added test 'xmllint' to check XML markup files
+[5.851s] -- Configuring done
+[5.855s] -- Generating done
+[5.856s] -- Build files have been written to: /home/dyddl2082/ros2_ws/build/two_joint_arm
+[5.863s] Invoked command in '/home/dyddl2082/ros2_ws/build/two_joint_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/two_joint_arm -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/two_joint_arm
+[5.864s] Invoking command in '/home/dyddl2082/ros2_ws/build/two_joint_arm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/two_joint_arm -- -j18 -l18
+[5.893s] Invoked command in '/home/dyddl2082/ros2_ws/build/two_joint_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/two_joint_arm -- -j18 -l18
+[5.902s] Invoking command in '/home/dyddl2082/ros2_ws/build/two_joint_arm': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/two_joint_arm
+[5.911s] -- Install configuration: ""
+[5.911s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm//urdf
+[5.911s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm//urdf/two_joint_arm.urdf
+[5.912s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm//launch
+[5.912s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm//launch/display.launch.py
+[5.912s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/ament_index/resource_index/package_run_dependencies/two_joint_arm
+[5.913s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/ament_index/resource_index/parent_prefix_path/two_joint_arm
+[5.913s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/ament_prefix_path.sh
+[5.913s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/ament_prefix_path.dsv
+[5.914s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/path.sh
+[5.914s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/path.dsv
+[5.914s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.bash
+[5.914s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.sh
+[5.914s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.zsh
+[5.914s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.dsv
+[5.914s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/package.dsv
+[5.914s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/ament_index/resource_index/packages/two_joint_arm
+[5.914s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/cmake/two_joint_armConfig.cmake
+[5.915s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/cmake/two_joint_armConfig-version.cmake
+[5.915s] -- Installing: /home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/package.xml
+[5.917s] Invoked command in '/home/dyddl2082/ros2_ws/build/two_joint_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/two_joint_arm

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dyddl2082/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp
+functional
+-
+future
+-
+memory
+-
+string
+-
+sstream
+-
+action_tutorials_interfaces/action/fibonacci.hpp
+/home/dyddl2082/ros2_ws/src/action_tutorials_cpp/src/action_tutorials_interfaces/action/fibonacci.hpp
+rclcpp/rclcpp.hpp
+/home/dyddl2082/ros2_ws/src/action_tutorials_cpp/src/rclcpp/rclcpp.hpp
+rclcpp_action/rclcpp_action.hpp
+/home/dyddl2082/ros2_ws/src/action_tutorials_cpp/src/rclcpp_action/rclcpp_action.hpp
+rclcpp_components/register_node_macro.hpp
+/home/dyddl2082/ros2_ws/src/action_tutorials_cpp/src/rclcpp_components/register_node_macro.hpp
+

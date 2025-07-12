@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000636] (two_joint_arm) JobQueued: {'identifier': 'two_joint_arm', 'dependencies': OrderedDict([('two_joint_arm', '/home/dyddl2082/ros2_ws/install/two_joint_arm')])}
+[0.000839] (two_joint_arm) JobStarted: {'identifier': 'two_joint_arm'}
+[0.099887] (-) TimerEvent: {}
+[0.148646] (two_joint_arm) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/dyddl2082/ros2_ws/build/two_joint_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/3165_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('WT_SESSION', '5240b5bc-3a29-4665-83cb-078405a8eb99'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/two_joint_arm:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/two_joint_arm'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/two_joint_arm')]), 'shell': False}
+[0.157234] (two_joint_arm) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/dyddl2082/ros2_ws/build/two_joint_arm/CTestConfiguration.ini\n'}
+[0.157391] (two_joint_arm) StdoutLine: {'line': b'Parse Config file:/home/dyddl2082/ros2_ws/build/two_joint_arm/CTestConfiguration.ini\n'}
+[0.157469] (two_joint_arm) StdoutLine: {'line': b'   Site: DESKTOP-DYDDL2082\n'}
+[0.157604] (two_joint_arm) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.157673] (two_joint_arm) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.157724] (two_joint_arm) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.157887] (two_joint_arm) StdoutLine: {'line': b'Create new tag: 20250709-0857 - Experimental\n'}
+[0.157950] (two_joint_arm) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/dyddl2082/ros2_ws/build/two_joint_arm/CTestConfiguration.ini\n'}
+[0.158016] (two_joint_arm) StdoutLine: {'line': b'Parse Config file:/home/dyddl2082/ros2_ws/build/two_joint_arm/CTestConfiguration.ini\n'}
+[0.158073] (two_joint_arm) StdoutLine: {'line': b'Test project /home/dyddl2082/ros2_ws/build/two_joint_arm\n'}
+[0.158288] (two_joint_arm) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.158333] (two_joint_arm) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.158359] (two_joint_arm) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.158385] (two_joint_arm) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.158410] (two_joint_arm) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.158436] (two_joint_arm) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.158464] (two_joint_arm) StdoutLine: {'line': b'test 1\n'}
+[0.158494] (two_joint_arm) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.158524] (two_joint_arm) StdoutLine: {'line': b'\n'}
+[0.158554] (two_joint_arm) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml"\n'}
+[0.158585] (two_joint_arm) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.199979] (-) TimerEvent: {}
+[0.203167] (two_joint_arm) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':\n"}
+[0.203318] (two_joint_arm) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml\n'}
+[0.300123] (-) TimerEvent: {}
+[0.360927] (two_joint_arm) StdoutLine: {'line': b'1: launch/display.launch.py: could not find copyright notice\n'}
+[0.361083] (two_joint_arm) StdoutLine: {'line': b'1: 1 errors, checked 1 files\n'}
+[0.370524] (two_joint_arm) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.370688] (two_joint_arm) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml'\n"}
+[0.377373] (two_joint_arm) StdoutLine: {'line': b'1/5 Test #1: copyright ........................***Failed    0.22 sec\n'}
+[0.377960] (two_joint_arm) StdoutLine: {'line': b'test 2\n'}
+[0.378025] (two_joint_arm) StdoutLine: {'line': b'    Start 2: flake8\n'}
+[0.378056] (two_joint_arm) StdoutLine: {'line': b'\n'}
+[0.378083] (two_joint_arm) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml"\n'}
+[0.378115] (two_joint_arm) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.400274] (-) TimerEvent: {}
+[0.415119] (two_joint_arm) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':\n"}
+[0.415285] (two_joint_arm) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml\n'}
+[0.500400] (-) TimerEvent: {}
+[0.600708] (-) TimerEvent: {}
+[0.701055] (-) TimerEvent: {}
+[0.765790] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.765946] (two_joint_arm) StdoutLine: {'line': b"2: ./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'\n"}
+[0.765983] (two_joint_arm) StdoutLine: {'line': b'2: from glob import glob\n'}
+[0.766012] (two_joint_arm) StdoutLine: {'line': b'2: ^\n'}
+[0.766040] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.766066] (two_joint_arm) StdoutLine: {'line': b"2: ./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.\n"}
+[0.766093] (two_joint_arm) StdoutLine: {'line': b'2: from setuptools import setup\n'}
+[0.766118] (two_joint_arm) StdoutLine: {'line': b'2: ^\n'}
+[0.766142] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.766166] (two_joint_arm) StdoutLine: {'line': b'2: ./setup.py:29:2: W292 no newline at end of file\n'}
+[0.766190] (two_joint_arm) StdoutLine: {'line': b'2: ) ^\n'}
+[0.766214] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.766238] (two_joint_arm) StdoutLine: {'line': b"2: ./launch/display.launch.py:2:1: I201 Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.\n"}
+[0.766264] (two_joint_arm) StdoutLine: {'line': b'2: from ament_index_python.packages import get_package_share_directory\n'}
+[0.766292] (two_joint_arm) StdoutLine: {'line': b'2: ^\n'}
+[0.766317] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.766341] (two_joint_arm) StdoutLine: {'line': b"2: ./launch/display.launch.py:5:1: I100 Import statements are in the wrong order. 'from launch.actions import DeclareLaunchArgument' should be before 'from launch.substitutions import LaunchConfiguration'\n"}
+[0.766367] (two_joint_arm) StdoutLine: {'line': b'2: from launch.actions import DeclareLaunchArgument\n'}
+[0.766391] (two_joint_arm) StdoutLine: {'line': b'2: ^\n'}
+[0.766415] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.766437] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:9:1: E302 expected 2 blank lines, found 1\n'}
+[0.766461] (two_joint_arm) StdoutLine: {'line': b'2: def generate_launch_description():\n'}
+[0.766485] (two_joint_arm) StdoutLine: {'line': b'2: ^\n'}
+[0.766508] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.766531] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:10:40: Q000 Double quotes found but single quotes preferred\n'}
+[0.766554] (two_joint_arm) StdoutLine: {'line': b'2:     use_sim_time = LaunchConfiguration("use_sim_time")\n'}
+[0.766577] (two_joint_arm) StdoutLine: {'line': b'2:                                        ^\n'}
+[0.766603] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.766626] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:12:57: Q000 Double quotes found but single quotes preferred\n'}
+[0.766653] (two_joint_arm) StdoutLine: {'line': b'2:     pkg_path = os.path.join(get_package_share_directory("two_joint_arm"))\n'}
+[0.766682] (two_joint_arm) StdoutLine: {'line': b'2:                                                         ^\n'}
+[0.766707] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.766731] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:13:41: Q000 Double quotes found but single quotes preferred\n'}
+[0.766754] (two_joint_arm) StdoutLine: {'line': b'2:     xacro_file = os.path.join(pkg_path, "urdf", "two_joint_arm.xacro")\n'}
+[0.766777] (two_joint_arm) StdoutLine: {'line': b'2:                                         ^\n'}
+[0.766801] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.766824] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:13:49: Q000 Double quotes found but single quotes preferred\n'}
+[0.766847] (two_joint_arm) StdoutLine: {'line': b'2:     xacro_file = os.path.join(pkg_path, "urdf", "two_joint_arm.xacro")\n'}
+[0.766869] (two_joint_arm) StdoutLine: {'line': b'2:                                                 ^\n'}
+[0.766891] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.766913] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:15:15: Q000 Double quotes found but single quotes preferred\n'}
+[0.766936] (two_joint_arm) StdoutLine: {'line': b'2:     params = {"robot_description": robot_description.toxml(), "use_sim_time": use_sim_time}\n'}
+[0.766960] (two_joint_arm) StdoutLine: {'line': b'2:               ^\n'}
+[0.766983] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.767007] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:15:63: Q000 Double quotes found but single quotes preferred\n'}
+[0.767031] (two_joint_arm) StdoutLine: {'line': b'2:     params = {"robot_description": robot_description.toxml(), "use_sim_time": use_sim_time}\n'}
+[0.767055] (two_joint_arm) StdoutLine: {'line': b'2:                                                               ^\n'}
+[0.767078] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.767101] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:20:17: Q000 Double quotes found but single quotes preferred\n'}
+[0.767124] (two_joint_arm) StdoutLine: {'line': b'2:                 "use_sim_time", default_value="false", description="use sim time"\n'}
+[0.767148] (two_joint_arm) StdoutLine: {'line': b'2:                 ^\n'}
+[0.767171] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.767196] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:20:47: Q000 Double quotes found but single quotes preferred\n'}
+[0.767221] (two_joint_arm) StdoutLine: {'line': b'2:                 "use_sim_time", default_value="false", description="use sim time"\n'}
+[0.767245] (two_joint_arm) StdoutLine: {'line': b'2:                                               ^\n'}
+[0.767268] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.767292] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:20:68: Q000 Double quotes found but single quotes preferred\n'}
+[0.767315] (two_joint_arm) StdoutLine: {'line': b'2:                 "use_sim_time", default_value="false", description="use sim time"\n'}
+[0.767338] (two_joint_arm) StdoutLine: {'line': b'2:                                                                    ^\n'}
+[0.767362] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.767386] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:23:25: Q000 Double quotes found but single quotes preferred\n'}
+[0.767457] (two_joint_arm) StdoutLine: {'line': b'2:                 package="robot_state_publisher",\n'}
+[0.767504] (two_joint_arm) StdoutLine: {'line': b'2:                         ^\n'}
+[0.767541] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.767568] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:24:28: Q000 Double quotes found but single quotes preferred\n'}
+[0.767598] (two_joint_arm) StdoutLine: {'line': b'2:                 executable="robot_state_publisher",\n'}
+[0.767624] (two_joint_arm) StdoutLine: {'line': b'2:                            ^\n'}
+[0.767648] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.767673] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:25:24: Q000 Double quotes found but single quotes preferred\n'}
+[0.767698] (two_joint_arm) StdoutLine: {'line': b'2:                 output="screen",\n'}
+[0.767723] (two_joint_arm) StdoutLine: {'line': b'2:                        ^\n'}
+[0.767747] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.767771] (two_joint_arm) StdoutLine: {'line': b'2: ./launch/display.launch.py:29:6: W292 no newline at end of file\n'}
+[0.767795] (two_joint_arm) StdoutLine: {'line': b'2:     )     ^\n'}
+[0.767820] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.767844] (two_joint_arm) StdoutLine: {'line': b'2: 1     E302 expected 2 blank lines, found 1\n'}
+[0.767869] (two_joint_arm) StdoutLine: {'line': b"2: 2     I100 Import statements are in the wrong order. 'from launch.actions import DeclareLaunchArgument' should be before 'from launch.substitutions import LaunchConfiguration'\n"}
+[0.767895] (two_joint_arm) StdoutLine: {'line': b"2: 2     I201 Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.\n"}
+[0.767920] (two_joint_arm) StdoutLine: {'line': b'2: 12    Q000 Double quotes found but single quotes preferred\n'}
+[0.767947] (two_joint_arm) StdoutLine: {'line': b'2: 2     W292 no newline at end of file\n'}
+[0.767970] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.767994] (two_joint_arm) StdoutLine: {'line': b'2: 2 files checked\n'}
+[0.768018] (two_joint_arm) StdoutLine: {'line': b'2: 19 errors\n'}
+[0.768042] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.768065] (two_joint_arm) StdoutLine: {'line': b"2: 'E'-type errors: 1\n"}
+[0.768090] (two_joint_arm) StdoutLine: {'line': b"2: 'I'-type errors: 4\n"}
+[0.768114] (two_joint_arm) StdoutLine: {'line': b"2: 'Q'-type errors: 12\n"}
+[0.768137] (two_joint_arm) StdoutLine: {'line': b"2: 'W'-type errors: 2\n"}
+[0.768160] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.768183] (two_joint_arm) StdoutLine: {'line': b'2: Checked files:\n'}
+[0.768207] (two_joint_arm) StdoutLine: {'line': b'2: \n'}
+[0.768230] (two_joint_arm) StdoutLine: {'line': b'2: * ./setup.py\n'}
+[0.768254] (two_joint_arm) StdoutLine: {'line': b'2: * ./launch/display.launch.py\n'}
+[0.785778] (two_joint_arm) StdoutLine: {'line': b'2: -- run_test.py: return code 1\n'}
+[0.786109] (two_joint_arm) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml'\n"}
+[0.792607] (two_joint_arm) StdoutLine: {'line': b'2/5 Test #2: flake8 ...........................***Failed    0.42 sec\n'}
+[0.793025] (two_joint_arm) StdoutLine: {'line': b'test 3\n'}
+[0.793139] (two_joint_arm) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[0.793197] (two_joint_arm) StdoutLine: {'line': b'\n'}
+[0.793247] (two_joint_arm) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/lint_cmake.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/lint_cmake.xunit.xml"\n'}
+[0.793314] (two_joint_arm) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.801191] (-) TimerEvent: {}
+[0.837679] (two_joint_arm) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':\n"}
+[0.837965] (two_joint_arm) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/lint_cmake.xunit.xml\n'}
+[0.901472] (-) TimerEvent: {}
+[0.974468] (two_joint_arm) StdoutLine: {'line': b'3: \n'}
+[0.974859] (two_joint_arm) StdoutLine: {'line': b'3: No problems found\n'}
+[0.991020] (two_joint_arm) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.991357] (two_joint_arm) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/lint_cmake.xunit.xml'\n"}
+[1.001593] (-) TimerEvent: {}
+[1.004145] (two_joint_arm) StdoutLine: {'line': b'3/5 Test #3: lint_cmake .......................   Passed    0.21 sec\n'}
+[1.005240] (two_joint_arm) StdoutLine: {'line': b'test 4\n'}
+[1.005345] (two_joint_arm) StdoutLine: {'line': b'    Start 4: pep257\n'}
+[1.005382] (two_joint_arm) StdoutLine: {'line': b'\n'}
+[1.005414] (two_joint_arm) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/pep257.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/pep257.xunit.xml"\n'}
+[1.005583] (two_joint_arm) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.048734] (two_joint_arm) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':\n"}
+[1.048949] (two_joint_arm) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/pep257.xunit.xml\n'}
+[1.101750] (-) TimerEvent: {}
+[1.202106] (-) TimerEvent: {}
+[1.218092] (two_joint_arm) StdoutLine: {'line': b'4: checking ./launch/display.launch.py\n'}
+[1.218243] (two_joint_arm) StdoutLine: {'line': b'4: checking ./setup.py\n'}
+[1.218275] (two_joint_arm) StdoutLine: {'line': b'4: No problems found\n'}
+[1.230150] (two_joint_arm) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.230768] (two_joint_arm) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/pep257.xunit.xml'\n"}
+[1.238735] (two_joint_arm) StdoutLine: {'line': b'4/5 Test #4: pep257 ...........................   Passed    0.23 sec\n'}
+[1.239229] (two_joint_arm) StdoutLine: {'line': b'test 5\n'}
+[1.239304] (two_joint_arm) StdoutLine: {'line': b'    Start 5: xmllint\n'}
+[1.239348] (two_joint_arm) StdoutLine: {'line': b'\n'}
+[1.239386] (two_joint_arm) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml"\n'}
+[1.239494] (two_joint_arm) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.281688] (two_joint_arm) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':\n"}
+[1.281841] (two_joint_arm) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml\n'}
+[1.302235] (-) TimerEvent: {}
+[1.402606] (-) TimerEvent: {}
+[1.503194] (-) TimerEvent: {}
+[1.603822] (-) TimerEvent: {}
+[1.704374] (-) TimerEvent: {}
+[1.804904] (-) TimerEvent: {}
+[1.905474] (-) TimerEvent: {}
+[2.006030] (-) TimerEvent: {}
+[2.106705] (-) TimerEvent: {}
+[2.207223] (-) TimerEvent: {}
+[2.307871] (-) TimerEvent: {}
+[2.354521] (two_joint_arm) StdoutLine: {'line': b"5: File 'package.xml' is valid\n"}
+[2.354837] (two_joint_arm) StdoutLine: {'line': b'5: \n'}
+[2.354965] (two_joint_arm) StdoutLine: {'line': b'5: No problems found\n'}
+[2.377187] (two_joint_arm) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[2.377726] (two_joint_arm) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml'\n"}
+[2.391854] (two_joint_arm) StdoutLine: {'line': b'5/5 Test #5: xmllint ..........................   Passed    1.15 sec\n'}
+[2.392640] (two_joint_arm) StdoutLine: {'line': b'\n'}
+[2.392824] (two_joint_arm) StdoutLine: {'line': b'60% tests passed\x1b[0;0m, \x1b[0;31m2 tests failed\x1b[0;0m out of 5\n'}
+[2.392914] (two_joint_arm) StdoutLine: {'line': b'\n'}
+[2.392988] (two_joint_arm) StdoutLine: {'line': b'Label Time Summary:\n'}
+[2.393055] (two_joint_arm) StdoutLine: {'line': b'copyright     =   0.22 sec*proc (1 test)\n'}
+[2.393124] (two_joint_arm) StdoutLine: {'line': b'flake8        =   0.42 sec*proc (1 test)\n'}
+[2.393192] (two_joint_arm) StdoutLine: {'line': b'lint_cmake    =   0.21 sec*proc (1 test)\n'}
+[2.393258] (two_joint_arm) StdoutLine: {'line': b'linter        =   2.23 sec*proc (5 tests)\n'}
+[2.393325] (two_joint_arm) StdoutLine: {'line': b'pep257        =   0.23 sec*proc (1 test)\n'}
+[2.393390] (two_joint_arm) StdoutLine: {'line': b'xmllint       =   1.15 sec*proc (1 test)\n'}
+[2.393453] (two_joint_arm) StdoutLine: {'line': b'\n'}
+[2.393651] (two_joint_arm) StdoutLine: {'line': b'Total Test time (real) =   2.23 sec\n'}
+[2.393729] (two_joint_arm) StdoutLine: {'line': b'\n'}
+[2.393795] (two_joint_arm) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[2.393859] (two_joint_arm) StdoutLine: {'line': b'\t\x1b[0;31m  1 - copyright (Failed)\x1b[0;0m\n'}
+[2.393923] (two_joint_arm) StdoutLine: {'line': b'\t\x1b[0;31m  2 - flake8 (Failed)\x1b[0;0m\n'}
+[2.396246] (two_joint_arm) StderrLine: {'line': b'Errors while running CTest\n'}
+[2.399191] (two_joint_arm) CommandEnded: {'returncode': 8}
+[2.399803] (two_joint_arm) TestFailure: {'identifier': 'two_joint_arm'}
+[2.399851] (two_joint_arm) JobEnded: {'identifier': 'two_joint_arm', 'rc': 0}
+[2.401196] (-) EventReactorShutdown: {}

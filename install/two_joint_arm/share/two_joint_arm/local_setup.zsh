@@ -1,0 +1,1 @@
+/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_cmake_environment_hooks/local_setup.zsh

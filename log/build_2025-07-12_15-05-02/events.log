@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000881] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000915] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000940] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000950] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000957] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000966] (Wild_Gunman) JobQueued: {'identifier': 'Wild_Gunman', 'dependencies': OrderedDict()}
+[0.000975] (Wild_Gunman) JobStarted: {'identifier': 'Wild_Gunman'}
+[0.009111] (Wild_Gunman) JobProgress: {'identifier': 'Wild_Gunman', 'progress': 'cmake'}
+[0.010858] (Wild_Gunman) JobProgress: {'identifier': 'Wild_Gunman', 'progress': 'build'}
+[0.010956] (Wild_Gunman) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyddl2082/ros2_ws/build/Wild_Gunman', '--', '-j18', '-l18'], 'cwd': '/home/dyddl2082/ros2_ws/build/Wild_Gunman', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dyddl2082/ros2_ws/install/tutorial_interfaces/lib:/home/dyddl2082/ros2_ws/install/polygon_plugins/lib:/home/dyddl2082/ros2_ws/install/more_interfaces/lib:/home/dyddl2082/ros2_ws/install/action_tutorials_cpp/lib:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/718_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/two_joint_arm:/home/dyddl2082/ros2_ws/install/tutorial_interfaces:/home/dyddl2082/ros2_ws/install/polygon_plugins:/home/dyddl2082/ros2_ws/install/polygon_base:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/more_interfaces:/home/dyddl2082/ros2_ws/install/cpp_srvcli:/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/action_tutorials_cpp:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces:/home/dyddl2082/ros2_ws/install/Wild_Gunman:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/Wild_Gunman'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyddl2082/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dyddl2082/ros2_ws/install/two_joint_arm:/home/dyddl2082/ros2_ws/install/tutorial_interfaces:/home/dyddl2082/ros2_ws/install/polygon_plugins:/home/dyddl2082/ros2_ws/install/polygon_base:/home/dyddl2082/ros2_ws/install/my_package:/home/dyddl2082/ros2_ws/install/more_interfaces:/home/dyddl2082/ros2_ws/install/cpp_srvcli:/home/dyddl2082/ros2_ws/install/cpp_pubsub:/home/dyddl2082/ros2_ws/install/action_tutorials_cpp:/home/dyddl2082/ros2_ws/install/action_tutorials_interfaces:/home/dyddl2082/ros2_ws/install/Wild_Gunman:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.044133] (Wild_Gunman) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.066333] (Wild_Gunman) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099854] (-) TimerEvent: {}
+[0.200258] (-) TimerEvent: {}
+[0.221826] (Wild_Gunman) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.300410] (-) TimerEvent: {}
+[0.400825] (-) TimerEvent: {}
+[0.501186] (-) TimerEvent: {}
+[0.544369] (Wild_Gunman) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.549128] (Wild_Gunman) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.601336] (-) TimerEvent: {}
+[0.701709] (-) TimerEvent: {}
+[0.802085] (-) TimerEvent: {}
+[0.902512] (-) TimerEvent: {}
+[1.002886] (-) TimerEvent: {}
+[1.103292] (-) TimerEvent: {}
+[1.203726] (-) TimerEvent: {}
+[1.304089] (-) TimerEvent: {}
+[1.404445] (-) TimerEvent: {}
+[1.504867] (-) TimerEvent: {}
+[1.605241] (-) TimerEvent: {}
+[1.705665] (-) TimerEvent: {}
+[1.806059] (-) TimerEvent: {}
+[1.906496] (-) TimerEvent: {}
+[2.007126] (-) TimerEvent: {}
+[2.107509] (-) TimerEvent: {}
+[2.207941] (-) TimerEvent: {}
+[2.308462] (-) TimerEvent: {}
+[2.408871] (-) TimerEvent: {}
+[2.509247] (-) TimerEvent: {}
+[2.609614] (-) TimerEvent: {}
+[2.710074] (-) TimerEvent: {}
+[2.810474] (-) TimerEvent: {}
+[2.910989] (-) TimerEvent: {}
+[3.011614] (-) TimerEvent: {}
+[3.112041] (-) TimerEvent: {}
+[3.212511] (-) TimerEvent: {}
+[3.312944] (-) TimerEvent: {}
+[3.413341] (-) TimerEvent: {}
+[3.513797] (-) TimerEvent: {}
+[3.614282] (-) TimerEvent: {}
+[3.714743] (-) TimerEvent: {}
+[3.815207] (-) TimerEvent: {}
+[3.915651] (-) TimerEvent: {}
+[4.016205] (-) TimerEvent: {}
+[4.116680] (-) TimerEvent: {}
+[4.217128] (-) TimerEvent: {}
+[4.317497] (-) TimerEvent: {}
+[4.417892] (-) TimerEvent: {}
+[4.518287] (-) TimerEvent: {}
+[4.618689] (-) TimerEvent: {}
+[4.719068] (-) TimerEvent: {}
+[4.819428] (-) TimerEvent: {}
+[4.919831] (-) TimerEvent: {}
+[5.020302] (-) TimerEvent: {}
+[5.120694] (-) TimerEvent: {}
+[5.221119] (-) TimerEvent: {}
+[5.321563] (-) TimerEvent: {}
+[5.421974] (-) TimerEvent: {}
+[5.522394] (-) TimerEvent: {}
+[5.622839] (-) TimerEvent: {}
+[5.723305] (-) TimerEvent: {}
+[5.823767] (-) TimerEvent: {}
+[5.924279] (-) TimerEvent: {}
+[6.024829] (-) TimerEvent: {}
+[6.125328] (-) TimerEvent: {}
+[6.225800] (-) TimerEvent: {}
+[6.326259] (-) TimerEvent: {}
+[6.426810] (-) TimerEvent: {}
+[6.527344] (-) TimerEvent: {}
+[6.627854] (-) TimerEvent: {}
+[6.728321] (-) TimerEvent: {}
+[6.828712] (-) TimerEvent: {}
+[6.929342] (-) TimerEvent: {}
+[7.029969] (-) TimerEvent: {}
+[7.130432] (-) TimerEvent: {}
+[7.230907] (-) TimerEvent: {}
+[7.331379] (-) TimerEvent: {}
+[7.431966] (-) TimerEvent: {}
+[7.532433] (-) TimerEvent: {}
+[7.632947] (-) TimerEvent: {}
+[7.733398] (-) TimerEvent: {}
+[7.833931] (-) TimerEvent: {}
+[7.934458] (-) TimerEvent: {}
+[8.034999] (-) TimerEvent: {}
+[8.135494] (-) TimerEvent: {}
+[8.235987] (-) TimerEvent: {}
+[8.336463] (-) TimerEvent: {}
+[8.436979] (-) TimerEvent: {}
+[8.537502] (-) TimerEvent: {}
+[8.638005] (-) TimerEvent: {}
+[8.738485] (-) TimerEvent: {}
+[8.838875] (-) TimerEvent: {}
+[8.939248] (-) TimerEvent: {}
+[9.039670] (-) TimerEvent: {}
+[9.140062] (-) TimerEvent: {}
+[9.240456] (-) TimerEvent: {}
+[9.340910] (-) TimerEvent: {}
+[9.441295] (-) TimerEvent: {}
+[9.541727] (-) TimerEvent: {}
+[9.642188] (-) TimerEvent: {}
+[9.742708] (-) TimerEvent: {}
+[9.843179] (-) TimerEvent: {}
+[9.943577] (-) TimerEvent: {}
+[9.980503] (Wild_Gunman) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.043776] (-) TimerEvent: {}
+[10.045879] (Wild_Gunman) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[10.048972] (Wild_Gunman) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.143950] (-) TimerEvent: {}
+[10.186133] (Wild_Gunman) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.240666] (Wild_Gunman) StderrLine: {'line': b'WARNING: Package name "Wild_Gunman" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[10.244099] (-) TimerEvent: {}
+[10.269447] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.270252] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.270637] (Wild_Gunman) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.270722] (Wild_Gunman) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.271265] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.271344] (Wild_Gunman) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.272189] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.273520] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.273687] (Wild_Gunman) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.274110] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.277797] (Wild_Gunman) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.292077] (Wild_Gunman) StdoutLine: {'line': b'-- Generating done\n'}
+[10.296306] (Wild_Gunman) StdoutLine: {'line': b'-- Build files have been written to: /home/dyddl2082/ros2_ws/build/Wild_Gunman\n'}
+[10.333112] (Wild_Gunman) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/player.dir/src/Player.cpp.o\x1b[0m\n'}
+[10.335222] (Wild_Gunman) StdoutLine: {'line': b'[ 75%] Built target gunman\n'}
+[10.344310] (-) TimerEvent: {}
+[10.362091] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kfcnt1.h: No such file or directory\n'}
+[10.362328] (Wild_Gunman) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K<fcnt1.h>\x1b[m\x1b[K\n'}
+[10.362394] (Wild_Gunman) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.362451] (Wild_Gunman) StderrLine: {'line': b'compilation terminated.\n'}
+[10.363794] (Wild_Gunman) StderrLine: {'line': b'make[2]: *** [CMakeFiles/player.dir/build.make:63: CMakeFiles/player.dir/src/Player.cpp.o] Error 1\n'}
+[10.364163] (Wild_Gunman) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/player.dir/all] Error 2\n'}
+[10.364419] (Wild_Gunman) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.366552] (Wild_Gunman) CommandEnded: {'returncode': 2}
+[10.374522] (Wild_Gunman) JobEnded: {'identifier': 'Wild_Gunman', 'rc': 2}
+[10.385271] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+WARNING: Package name "Wild_Gunman" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'rclcpp' was not found
+  before
+Call Stack (most recent call first):
+  CMakeLists.txt:36 (ament_target_dependencies)
+
+

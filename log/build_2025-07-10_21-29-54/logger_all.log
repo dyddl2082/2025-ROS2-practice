@@ -1,0 +1,185 @@
+[0.398s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'polygon_base', 'polygon_plugins']
+[0.398s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76c979140cd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['polygon_base', 'polygon_plugins'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=18, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76c979140cd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76c97905d7f0>)
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.517s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dyddl2082/ros2_ws'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore_ament_install'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ros'
+[0.550s] DEBUG:colcon.colcon_core.package_identification:Package 'src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_meta']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_meta'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ros']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ros'
+[0.550s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'src/polygon_plugins'
+[0.552s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'src/polygon_plugins': Error(s) in package 'src/polygon_plugins/package.xml':
+Error(s):
+- The manifest of package "polygon_plugins" (with format version 3) must not contain the following tags: library
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['cmake', 'python']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'cmake'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'python'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_plugins' with type 'cmake' and name 'polygon_plugins'
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.567s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'more_interfaces' in 'src/more_interfaces'
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.571s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/foxy
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_args' from command line to 'None'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target' from command line to 'None'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.611s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyddl2082/ros2_ws/build/polygon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyddl2082/ros2_ws/install/polygon_base', 'merge_install': False, 'path': '/home/dyddl2082/ros2_ws/src/polygon_base', 'symlink_install': False, 'test_result_base': None}
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_args' from command line to 'None'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target' from command line to 'None'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.611s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyddl2082/ros2_ws/build/polygon_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyddl2082/ros2_ws/install/polygon_plugins', 'merge_install': False, 'path': '/home/dyddl2082/ros2_ws/src/polygon_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.611s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.612s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.613s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyddl2082/ros2_ws/src/polygon_base' with build type 'ament_cmake'
+[0.613s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyddl2082/ros2_ws/src/polygon_base'
+[0.616s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.617s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.617s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyddl2082/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/polygon_base -- -j18 -l18
+[3.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyddl2082/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/polygon_base -- -j18 -l18
+[3.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyddl2082/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/polygon_base
+[3.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[3.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyddl2082/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/polygon_base
+[3.436s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base' for CMake module files
+[3.437s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base' for CMake config files
+[3.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[3.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[3.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[3.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[3.440s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base/lib'
+[3.440s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base/bin'
+[3.440s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[3.440s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base/lib/python3.8/site-packages'
+[3.441s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base/bin'
+[3.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.ps1'
+[3.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.dsv'
+[3.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.sh'
+[3.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.bash'
+[3.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.zsh'
+[3.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyddl2082/ros2_ws/install/polygon_base/share/colcon-core/packages/polygon_base)
+[3.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[3.443s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base' for CMake module files
+[3.444s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base' for CMake config files
+[3.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[3.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[3.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[3.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[3.445s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base/lib'
+[3.445s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base/bin'
+[3.445s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[3.445s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base/lib/python3.8/site-packages'
+[3.445s] Level 1:colcon.colcon_core.environment:checking '/home/dyddl2082/ros2_ws/install/polygon_base/bin'
+[3.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.ps1'
+[3.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.dsv'
+[3.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.sh'
+[3.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.bash'
+[3.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyddl2082/ros2_ws/install/polygon_base/share/polygon_base/package.zsh'
+[3.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyddl2082/ros2_ws/install/polygon_base/share/colcon-core/packages/polygon_base)
+[3.447s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyddl2082/ros2_ws/src/polygon_plugins'
+[3.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyddl2082/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base /usr/bin/cmake /home/dyddl2082/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/polygon_plugins
+[9.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyddl2082/ros2_ws/build/polygon_plugins' returned '1': AMENT_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dyddl2082/ros2_ws/install/polygon_base /usr/bin/cmake /home/dyddl2082/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/polygon_plugins
+[9.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[9.162s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.277s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.277s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.277s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.277s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.278s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[9.279s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyddl2082/ros2_ws/install/local_setup.ps1'
+[9.280s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dyddl2082/ros2_ws/install/_local_setup_util_ps1.py'
+[9.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyddl2082/ros2_ws/install/setup.ps1'
+[9.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyddl2082/ros2_ws/install/local_setup.sh'
+[9.282s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dyddl2082/ros2_ws/install/_local_setup_util_sh.py'
+[9.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyddl2082/ros2_ws/install/setup.sh'
+[9.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyddl2082/ros2_ws/install/local_setup.bash'
+[9.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyddl2082/ros2_ws/install/setup.bash'
+[9.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyddl2082/ros2_ws/install/local_setup.zsh'
+[9.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyddl2082/ros2_ws/install/setup.zsh'

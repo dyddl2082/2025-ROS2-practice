@@ -1,0 +1,33 @@
+WARNING: Package name "Wild_Gunman" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kfuctional: No such file or directory
+    2 | #include [01;31m[K<fuctional>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/gunman.dir/build.make:63: CMakeFiles/gunman.dir/src/Shooter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/gunman.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:87:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   87 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:[m[K In constructor ‘[01m[KPlayer::Player()[m[K’:
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:35:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   35 |             })
+      |               [01;31m[K^[m[K
+      |               [32m[K;[m[K
+   36 |         [32m[K}[m[K
+      |         [32m[K~[m[K      
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:[m[K In member function ‘[01m[Kvoid Player::input_loop()[m[K’:
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:58:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreaction_pub_[m[K’
+   58 |                         msg.data = "Reacted"
+      |                                             [01;31m[K^[m[K
+      |                                             [32m[K;[m[K
+   59 |                         [32m[Kreaction_pub_[m[K->publish(msg);
+      |                         [32m[K~~~~~~~~~~~~~[m[K        
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:[m[K In lambda function:
+[01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:75:49:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   75 |                     std::this_thread::sleep_for([01;31m[K1s[m[K);
+      |                                                 [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/player.dir/build.make:63: CMakeFiles/player.dir/src/Player.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/player.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

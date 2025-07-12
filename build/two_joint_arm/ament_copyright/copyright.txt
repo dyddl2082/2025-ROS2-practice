@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':
+ - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml
+
+launch/display.launch.py: could not find copyright notice
+1 errors, checked 1 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml'

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="two_joint_arm.flake8"
+  tests="19"
+  errors="0"
+  failures="19"
+  time="0.182"
+>
+  <testcase
+    name="I100 (./setup.py:2:1)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'from glob import glob' should be before 'import os':&#10;from glob import glob&#10;"/>
+  </testcase>
+  <testcase
+    name="I201 (./setup.py:3:1)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message="Missing newline between import groups. 'from setuptools import setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.:&#10;from setuptools import setup&#10;"/>
+  </testcase>
+  <testcase
+    name="W292 (./setup.py:29:2)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message="no newline at end of file:&#10;)"/>
+  </testcase>
+  <testcase
+    name="I201 (./launch/display.launch.py:2:1)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message="Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.:&#10;from ament_index_python.packages import get_package_share_directory&#10;"/>
+  </testcase>
+  <testcase
+    name="I100 (./launch/display.launch.py:5:1)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'from launch.actions import DeclareLaunchArgument' should be before 'from launch.substitutions import LaunchConfiguration':&#10;from launch.actions import DeclareLaunchArgument&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/display.launch.py:9:1)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:10:40)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;    use_sim_time = LaunchConfiguration("use_sim_time")&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:12:57)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;    pkg_path = os.path.join(get_package_share_directory("two_joint_arm"))&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:13:41)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;    xacro_file = os.path.join(pkg_path, "urdf", "two_joint_arm.xacro")&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:13:49)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;    xacro_file = os.path.join(pkg_path, "urdf", "two_joint_arm.xacro")&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:15:15)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;    params = {"robot_description": robot_description.toxml(), "use_sim_time": use_sim_time}&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:15:63)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;    params = {"robot_description": robot_description.toxml(), "use_sim_time": use_sim_time}&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:20:17)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;                "use_sim_time", default_value="false", description="use sim time"&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:20:47)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;                "use_sim_time", default_value="false", description="use sim time"&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:20:68)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;                "use_sim_time", default_value="false", description="use sim time"&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:23:25)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;                package="robot_state_publisher",&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:24:28)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;                executable="robot_state_publisher",&#10;'/>
+  </testcase>
+  <testcase
+    name="Q000 (./launch/display.launch.py:25:24)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message='Double quotes found but single quotes preferred:&#10;                output="screen",&#10;'/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/display.launch.py:29:6)"
+    classname="two_joint_arm.flake8"
+  >
+      <failure message="no newline at end of file:&#10;    )"/>
+  </testcase>
+  <system-out>Checked files:
+* ./setup.py
+* ./launch/display.launch.py</system-out>
+</testsuite>

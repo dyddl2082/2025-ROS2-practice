@@ -1,0 +1,240 @@
+[0.013s] Invoking command in '/home/dyddl2082/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/more_interfaces
+[0.431s] -- The C compiler identification is GNU 9.4.0
+[0.833s] -- The CXX compiler identification is GNU 9.4.0
+[1.175s] -- Check for working C compiler: /usr/bin/cc
+[1.480s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.486s] -- Detecting C compiler ABI info
+[1.798s] -- Detecting C compiler ABI info - done
+[1.808s] -- Detecting C compile features
+[1.809s] -- Detecting C compile features - done
+[1.811s] -- Check for working CXX compiler: /usr/bin/c++
+[2.065s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.066s] -- Detecting CXX compiler ABI info
+[2.316s] -- Detecting CXX compiler ABI info - done
+[2.323s] -- Detecting CXX compile features
+[2.323s] -- Detecting CXX compile features - done
+[2.333s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.350s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.350s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.482s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.485s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.491s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.758s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.014s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.786s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.804s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[9.869s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.872s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.874s] -- Looking for pthread.h
+[10.194s] -- Looking for pthread.h - found
+[10.194s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.445s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.445s] -- Looking for pthread_create in pthreads
+[10.695s] -- Looking for pthread_create in pthreads - not found
+[10.695s] -- Looking for pthread_create in pthread
+[10.952s] -- Looking for pthread_create in pthread - found
+[10.954s] -- Found Threads: TRUE  
+[11.087s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.184s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[11.233s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[21.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.198s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[21.200s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[22.300s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[22.300s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[22.300s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[22.300s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[22.328s] -- Found PythonExtra: .so  
+[22.513s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.516s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.517s] -- Configured cppcheck include dirs: 
+[22.517s] -- Configured cppcheck exclude dirs and/or files: 
+[22.520s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[22.520s] -- Configured cpplint exclude dirs and/or files: 
+[22.521s] -- Added test 'lint_cmake' to check CMake code style
+[22.524s] -- Added test 'uncrustify' to check C / C++ code style
+[22.524s] -- Configured uncrustify additional arguments: 
+[22.525s] -- Added test 'xmllint' to check XML markup files
+[22.535s] -- Configuring done
+[22.578s] -- Generating done
+[22.587s] -- Build files have been written to: /home/dyddl2082/ros2_ws/build/more_interfaces
+[22.597s] Invoked command in '/home/dyddl2082/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/more_interfaces
+[22.600s] Invoking command in '/home/dyddl2082/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/more_interfaces -- -j18 -l18
+[22.634s] [35m[1mScanning dependencies of target more_interfaces__cpp[0m
+[22.635s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[22.644s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[22.819s] [  6%] Built target more_interfaces__cpp
+[22.825s] [35m[1mScanning dependencies of target more_interfaces__rosidl_generator_c[0m
+[22.830s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.831s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.832s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.849s] [ 18%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[22.932s] [ 21%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[23.010s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[23.029s] [ 24%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[23.032s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[23.032s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[23.045s] [ 27%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[23.050s] [ 30%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[23.189s] [ 30%] Built target more_interfaces__rosidl_generator_c
+[23.202s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.206s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[23.327s] [ 39%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[23.359s] [ 42%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[23.412s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[23.425s] [ 45%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[23.441s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[23.454s] [ 48%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[23.455s] [ 51%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[23.466s] [ 54%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.480s] [ 57%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[23.547s] [ 57%] Built target more_interfaces__rosidl_typesupport_cpp
+[23.560s] [ 57%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[23.628s] [ 57%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[23.632s] [ 57%] Built target more_interfaces__rosidl_typesupport_c
+[23.671s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[23.679s] [ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.844s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[23.857s] [ 63%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[24.113s] [ 66%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[24.392s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[24.399s] [35m[1mScanning dependencies of target more_interfaces[0m
+[24.407s] [ 66%] Built target more_interfaces
+[24.416s] [35m[1mScanning dependencies of target publish_address_book[0m
+[24.416s] [35m[1mScanning dependencies of target more_interfaces__py[0m
+[24.426s] [ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[24.541s] [ 72%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[24.764s] [ 72%] Built target more_interfaces__py
+[24.773s] [35m[1mScanning dependencies of target more_interfaces__python[0m
+[24.819s] [ 75%] [32mBuilding C object CMakeFiles/more_interfaces__python.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[24.907s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__python.so[0m
+[25.140s] [ 78%] Built target more_interfaces__python
+[25.150s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[25.150s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[25.155s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[25.173s] [ 81%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[25.174s] [ 84%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[25.179s] [ 87%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[25.272s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[25.280s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[25.280s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[25.453s] [ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[25.464s] [ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[25.476s] [ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[27.310s] [100%] [32m[1mLinking CXX executable publish_address_book[0m
+[27.652s] [100%] Built target publish_address_book
+[27.663s] Invoked command in '/home/dyddl2082/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/more_interfaces -- -j18 -l18
+[27.675s] Invoking command in '/home/dyddl2082/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/more_interfaces
+[27.681s] -- Install configuration: ""
+[27.682s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[27.682s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces
+[27.682s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[27.683s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[27.683s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.c
+[27.683s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.h
+[27.683s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.h
+[27.683s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.h
+[27.683s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/address_book.h
+[27.684s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[27.684s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[27.684s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[27.684s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[27.685s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[27.685s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces
+[27.685s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[27.685s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[27.686s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[27.686s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.686s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[27.686s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[27.686s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces
+[27.686s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[27.686s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[27.686s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps
+[27.686s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[27.686s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.686s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[27.686s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.687s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces
+[27.687s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[27.687s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[27.687s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.c
+[27.687s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[27.688s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.688s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[27.688s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[27.688s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[27.688s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[27.688s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces
+[27.688s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[27.688s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[27.688s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.hpp
+[27.688s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.hpp
+[27.688s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__builder.hpp
+[27.688s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__traits.hpp
+[27.688s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/address_book.hpp
+[27.688s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.688s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces
+[27.688s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg
+[27.688s] -- Up-to-date: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[27.688s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.cpp
+[27.689s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[27.689s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[27.689s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[27.689s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[27.690s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[27.690s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[27.690s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[27.690s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py
+[27.715s] Compiling '/home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py'...
+[27.718s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg
+[27.719s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py
+[27.719s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book_s.c
+[27.719s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book.py
+[27.719s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[27.720s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[27.720s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[27.720s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[27.721s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[27.721s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[27.721s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__python.so
+[27.721s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/libmore_interfaces__python.so" to ""
+[27.721s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[27.721s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[27.722s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[27.723s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""
+[27.723s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[27.723s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[27.723s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[27.724s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[27.724s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[27.725s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[27.725s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[27.725s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[27.725s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[27.725s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[27.725s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[27.726s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[27.726s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake
+[27.726s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[27.726s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[27.726s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.726s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[27.726s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[27.727s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake
+[27.727s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[27.727s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.727s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[27.727s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[27.727s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[27.727s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.727s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[27.727s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[27.728s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.728s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.728s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.728s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[27.728s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[27.728s] -- Installing: /home/dyddl2082/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[27.732s] Invoked command in '/home/dyddl2082/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/more_interfaces

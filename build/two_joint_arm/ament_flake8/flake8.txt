@@ -1,0 +1,100 @@
+-- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':
+ - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml
+
+
+./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+from glob import glob
+^
+
+./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+from setuptools import setup
+^
+
+./setup.py:29:2: W292 no newline at end of file
+) ^
+
+./launch/display.launch.py:2:1: I201 Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.
+from ament_index_python.packages import get_package_share_directory
+^
+
+./launch/display.launch.py:5:1: I100 Import statements are in the wrong order. 'from launch.actions import DeclareLaunchArgument' should be before 'from launch.substitutions import LaunchConfiguration'
+from launch.actions import DeclareLaunchArgument
+^
+
+./launch/display.launch.py:9:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./launch/display.launch.py:10:40: Q000 Double quotes found but single quotes preferred
+    use_sim_time = LaunchConfiguration("use_sim_time")
+                                       ^
+
+./launch/display.launch.py:12:57: Q000 Double quotes found but single quotes preferred
+    pkg_path = os.path.join(get_package_share_directory("two_joint_arm"))
+                                                        ^
+
+./launch/display.launch.py:13:41: Q000 Double quotes found but single quotes preferred
+    xacro_file = os.path.join(pkg_path, "urdf", "two_joint_arm.xacro")
+                                        ^
+
+./launch/display.launch.py:13:49: Q000 Double quotes found but single quotes preferred
+    xacro_file = os.path.join(pkg_path, "urdf", "two_joint_arm.xacro")
+                                                ^
+
+./launch/display.launch.py:15:15: Q000 Double quotes found but single quotes preferred
+    params = {"robot_description": robot_description.toxml(), "use_sim_time": use_sim_time}
+              ^
+
+./launch/display.launch.py:15:63: Q000 Double quotes found but single quotes preferred
+    params = {"robot_description": robot_description.toxml(), "use_sim_time": use_sim_time}
+                                                              ^
+
+./launch/display.launch.py:20:17: Q000 Double quotes found but single quotes preferred
+                "use_sim_time", default_value="false", description="use sim time"
+                ^
+
+./launch/display.launch.py:20:47: Q000 Double quotes found but single quotes preferred
+                "use_sim_time", default_value="false", description="use sim time"
+                                              ^
+
+./launch/display.launch.py:20:68: Q000 Double quotes found but single quotes preferred
+                "use_sim_time", default_value="false", description="use sim time"
+                                                                   ^
+
+./launch/display.launch.py:23:25: Q000 Double quotes found but single quotes preferred
+                package="robot_state_publisher",
+                        ^
+
+./launch/display.launch.py:24:28: Q000 Double quotes found but single quotes preferred
+                executable="robot_state_publisher",
+                           ^
+
+./launch/display.launch.py:25:24: Q000 Double quotes found but single quotes preferred
+                output="screen",
+                       ^
+
+./launch/display.launch.py:29:6: W292 no newline at end of file
+    )     ^
+
+1     E302 expected 2 blank lines, found 1
+2     I100 Import statements are in the wrong order. 'from launch.actions import DeclareLaunchArgument' should be before 'from launch.substitutions import LaunchConfiguration'
+2     I201 Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.
+12    Q000 Double quotes found but single quotes preferred
+2     W292 no newline at end of file
+
+2 files checked
+19 errors
+
+'E'-type errors: 1
+'I'-type errors: 4
+'Q'-type errors: 12
+'W'-type errors: 2
+
+Checked files:
+
+* ./setup.py
+* ./launch/display.launch.py
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml'

@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "action_tutorials_interfaces__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dyddl2082/ros2_ws/build/action_tutorials_interfaces/action_tutorials_interfaces__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "action_tutorials_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces-6f1f7bf4965f24884453.json",
+					"name" : "action_tutorials_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__cpp-361ed7e0f166d3271825.json",
+					"name" : "action_tutorials_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "action_tutorials_interfaces__py::@825839dd6494f93c9be8",
+					"jsonFile" : "target-action_tutorials_interfaces__py-322ab0e7d2415a1bc594.json",
+					"name" : "action_tutorials_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__python-cfac1c9c0415ae1d0abe.json",
+					"name" : "action_tutorials_interfaces__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__rosidl_generator_c-be010e7597ebb5ddf7f0.json",
+					"name" : "action_tutorials_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__rosidl_typesupport_c-c36a7813d8443cc606ff.json",
+					"name" : "action_tutorials_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__rosidl_typesupport_c__pyext-cd9d411eb29998e33e0b.json",
+					"name" : "action_tutorials_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__rosidl_typesupport_cpp-4cd89438e480726ad5c0.json",
+					"name" : "action_tutorials_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__rosidl_typesupport_fastrtps_c-050c22e3d545e5b36b35.json",
+					"name" : "action_tutorials_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext-0fb5dc767f3ec6f9d50e.json",
+					"name" : "action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp-07a89827b0c2d08640bd.json",
+					"name" : "action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__rosidl_typesupport_introspection_c-e5d4b40b683d39b5aad4.json",
+					"name" : "action_tutorials_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext-b5658b5055246bf9a56d.json",
+					"name" : "action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces__rosidl_typesupport_introspection_cpp-b330fa30aeafcaa2344e.json",
+					"name" : "action_tutorials_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_interfaces_uninstall-2d326271ea6068890b14.json",
+					"name" : "action_tutorials_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b5955620c32ce6f8173f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dyddl2082/ros2_ws/build/action_tutorials_interfaces",
+		"source" : "/home/dyddl2082/ros2_ws/src/action_tutorials_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,83 @@
+[0.012s] Invoking command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/cpp_srvcli
+[0.351s] -- The C compiler identification is GNU 9.4.0
+[0.959s] -- The CXX compiler identification is GNU 9.4.0
+[1.217s] -- Check for working C compiler: /usr/bin/cc
+[1.534s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.534s] -- Detecting C compiler ABI info
+[1.826s] -- Detecting C compiler ABI info - done
+[1.835s] -- Detecting C compile features
+[1.835s] -- Detecting C compile features - done
+[1.838s] -- Check for working CXX compiler: /usr/bin/c++
+[2.137s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.139s] -- Detecting CXX compiler ABI info
+[2.470s] -- Detecting CXX compiler ABI info - done
+[2.485s] -- Detecting CXX compile features
+[2.486s] -- Detecting CXX compile features - done
+[2.488s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.512s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.512s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.643s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.946s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.950s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.484s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.942s] -- Found FastRTPS: /opt/ros/foxy/include  
+[11.802s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.862s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.867s] -- Looking for pthread.h
+[12.128s] -- Looking for pthread.h - found
+[12.129s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.368s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.368s] -- Looking for pthread_create in pthreads
+[12.598s] -- Looking for pthread_create in pthreads - not found
+[12.599s] -- Looking for pthread_create in pthread
+[12.874s] -- Looking for pthread_create in pthread - found
+[12.876s] -- Found Threads: TRUE  
+[13.013s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[13.109s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[13.200s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.201s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.202s] -- Configured cppcheck include dirs: 
+[13.202s] -- Configured cppcheck exclude dirs and/or files: 
+[13.202s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.202s] -- Configured cpplint exclude dirs and/or files: 
+[13.204s] -- Added test 'lint_cmake' to check CMake code style
+[13.207s] -- Added test 'uncrustify' to check C / C++ code style
+[13.207s] -- Configured uncrustify additional arguments: 
+[13.208s] -- Added test 'xmllint' to check XML markup files
+[13.211s] -- Configuring done
+[13.219s] -- Generating done
+[13.223s] -- Build files have been written to: /home/dyddl2082/ros2_ws/build/cpp_srvcli
+[13.232s] Invoked command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dyddl2082/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/cpp_srvcli
+[13.233s] Invoking command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/cpp_srvcli -- -j18 -l18
+[13.264s] [35m[1mScanning dependencies of target server[0m
+[13.268s] [35m[1mScanning dependencies of target client[0m
+[13.374s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[13.375s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[14.981s] [ 75%] [32m[1mLinking CXX executable server[0m
+[15.231s] [100%] [32m[1mLinking CXX executable client[0m
+[15.293s] [100%] Built target server
+[15.639s] [100%] Built target client
+[15.656s] Invoked command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/cpp_srvcli -- -j18 -l18
+[15.664s] Invoking command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/cpp_srvcli
+[15.675s] -- Install configuration: ""
+[15.676s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[15.676s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[15.676s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[15.677s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[15.677s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[15.678s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[15.678s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[15.678s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[15.678s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[15.678s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[15.678s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[15.678s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[15.678s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[15.679s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[15.679s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[15.679s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[15.680s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[15.680s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[15.680s] -- Installing: /home/dyddl2082/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[15.683s] Invoked command in '/home/dyddl2082/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/cpp_srvcli

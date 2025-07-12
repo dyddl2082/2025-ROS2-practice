@@ -1,0 +1,12 @@
+[0.014s] Invoking command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/Wild_Gunman -- -j18 -l18
+[0.092s] [35m[1mScanning dependencies of target player[0m
+[0.115s] [ 25%] [32mBuilding CXX object CMakeFiles/player.dir/src/Player.cpp.o[0m
+[0.132s] [ 75%] Built target gunman
+[0.252s] [01m[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kfcnt1.h: No such file or directory
+[0.252s]     8 | #include [01;31m[K<fcnt1.h>[m[K
+[0.252s]       |          [01;31m[K^~~~~~~~~[m[K
+[0.252s] compilation terminated.
+[0.254s] make[2]: *** [CMakeFiles/player.dir/build.make:63: CMakeFiles/player.dir/src/Player.cpp.o] Error 1
+[0.254s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/player.dir/all] Error 2
+[0.255s] make: *** [Makefile:141: all] Error 2
+[0.257s] Invoked command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/Wild_Gunman -- -j18 -l18

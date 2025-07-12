@@ -1,0 +1,17 @@
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm//urdf/two_joint_arm.xacro
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm//launch/display.launch.py
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/ament_index/resource_index/package_run_dependencies/two_joint_arm
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/ament_index/resource_index/parent_prefix_path/two_joint_arm
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/ament_prefix_path.sh
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/ament_prefix_path.dsv
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/path.sh
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/environment/path.dsv
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.bash
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.sh
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.zsh
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/local_setup.dsv
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/package.dsv
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/ament_index/resource_index/packages/two_joint_arm
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/cmake/two_joint_armConfig.cmake
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/cmake/two_joint_armConfig-version.cmake
+/home/dyddl2082/ros2_ws/install/two_joint_arm/share/two_joint_arm/package.xml

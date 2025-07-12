@@ -1,0 +1,32 @@
+[0.015s] Invoking command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/Wild_Gunman -- -j18 -l18
+[0.103s] [35m[1mScanning dependencies of target gunman[0m
+[0.103s] [35m[1mScanning dependencies of target player[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/gunman.dir/src/Shooter.cpp.o[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/player.dir/src/Player.cpp.o[0m
+[4.916s] [ 75%] [32m[1mLinking CXX executable player[0m
+[4.941s] [100%] [32m[1mLinking CXX executable gunman[0m
+[5.354s] [100%] Built target player
+[5.355s] [100%] Built target gunman
+[5.368s] Invoked command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dyddl2082/ros2_ws/build/Wild_Gunman -- -j18 -l18
+[5.383s] Invoking command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/Wild_Gunman
+[5.394s] -- Install configuration: ""
+[5.395s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/lib/Wild_Gunman/gunman
+[5.396s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/Wild_Gunman/lib/Wild_Gunman/gunman" to ""
+[5.396s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/lib/Wild_Gunman/player
+[5.397s] -- Set runtime path of "/home/dyddl2082/ros2_ws/install/Wild_Gunman/lib/Wild_Gunman/player" to ""
+[5.399s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/ament_index/resource_index/package_run_dependencies/Wild_Gunman
+[5.400s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/ament_index/resource_index/parent_prefix_path/Wild_Gunman
+[5.401s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/environment/ament_prefix_path.sh
+[5.402s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/environment/ament_prefix_path.dsv
+[5.402s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/environment/path.sh
+[5.403s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/environment/path.dsv
+[5.403s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/local_setup.bash
+[5.403s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/local_setup.sh
+[5.404s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/local_setup.zsh
+[5.404s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/local_setup.dsv
+[5.405s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/package.dsv
+[5.406s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/ament_index/resource_index/packages/Wild_Gunman
+[5.406s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/cmake/Wild_GunmanConfig.cmake
+[5.406s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/cmake/Wild_GunmanConfig-version.cmake
+[5.407s] -- Installing: /home/dyddl2082/ros2_ws/install/Wild_Gunman/share/Wild_Gunman/package.xml
+[5.410s] Invoked command in '/home/dyddl2082/ros2_ws/build/Wild_Gunman' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dyddl2082/ros2_ws/build/Wild_Gunman

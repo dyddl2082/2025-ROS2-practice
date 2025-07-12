@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250709-0857-Experimental"
+	Name="DESKTOP-DYDDL2082"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="DESKTOP-DYDDL2082"
+	OSRelease="6.6.87.2-microsoft-standard-WSL2"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="170"
+	ProcessorCacheSize="18432"
+	NumberOfLogicalCPU="18"
+	NumberOfPhysicalCPU="9"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="15765"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2995.2"
+	>
+	<Testing>
+		<StartDateTime>Jul 09 17:57 KST</StartDateTime>
+		<StartTestTime>1752051461</StartTestTime>
+		<TestList>
+			<Test>./copyright</Test>
+			<Test>./flake8</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./pep257</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>copyright</Name>
+			<Path>.</Path>
+			<FullName>./copyright</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.218963</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':
+ - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml
+launch/display.launch.py: could not find copyright notice
+1 errors, checked 1 files
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/copyright.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>copyright</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>flake8</Name>
+			<Path>.</Path>
+			<FullName>./flake8</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.415065</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':
+ - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml
+
+./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+from glob import glob
+^
+
+./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+from setuptools import setup
+^
+
+./setup.py:29:2: W292 no newline at end of file
+) ^
+
+./launch/display.launch.py:2:1: I201 Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.
+from ament_index_python.packages import get_package_share_directory
+^
+
+./launch/display.launch.py:5:1: I100 Import statements are in the wrong order. 'from launch.actions import DeclareLaunchArgument' should be before 'from launch.substitutions import LaunchConfiguration'
+from launch.actions import DeclareLaunchArgument
+^
+
+./launch/display.launch.py:9:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./launch/display.launch.py:10:40: Q000 Double quotes found but single quotes preferred
+    use_sim_time = LaunchConfiguration("use_sim_time")
+                                       ^
+
+./launch/display.launch.py:12:57: Q000 Double quotes found but single quotes preferred
+    pkg_path = os.path.join(get_package_share_directory("two_joint_arm"))
+                                                        ^
+
+./launch/display.launch.py:13:41: Q000 Double quotes found but single quotes preferred
+    xacro_file = os.path.join(pkg_path, "urdf", "two_joint_arm.xacro")
+                                        ^
+
+./launch/display.launch.py:13:49: Q000 Double quotes found but single quotes preferred
+    xacro_file = os.path.join(pkg_path, "urdf", "two_joint_arm.xacro")
+                                                ^
+
+./launch/display.launch.py:15:15: Q000 Double quotes found but single quotes preferred
+    params = {"robot_description": robot_description.toxml(), "use_sim_time": use_sim_time}
+              ^
+
+./launch/display.launch.py:15:63: Q000 Double quotes found but single quotes preferred
+    params = {"robot_description": robot_description.toxml(), "use_sim_time": use_sim_time}
+                                                              ^
+
+./launch/display.launch.py:20:17: Q000 Double quotes found but single quotes preferred
+                "use_sim_time", default_value="false", description="use sim time"
+                ^
+
+./launch/display.launch.py:20:47: Q000 Double quotes found but single quotes preferred
+                "use_sim_time", default_value="false", description="use sim time"
+                                              ^
+
+./launch/display.launch.py:20:68: Q000 Double quotes found but single quotes preferred
+                "use_sim_time", default_value="false", description="use sim time"
+                                                                   ^
+
+./launch/display.launch.py:23:25: Q000 Double quotes found but single quotes preferred
+                package="robot_state_publisher",
+                        ^
+
+./launch/display.launch.py:24:28: Q000 Double quotes found but single quotes preferred
+                executable="robot_state_publisher",
+                           ^
+
+./launch/display.launch.py:25:24: Q000 Double quotes found but single quotes preferred
+                output="screen",
+                       ^
+
+./launch/display.launch.py:29:6: W292 no newline at end of file
+    )     ^
+
+1     E302 expected 2 blank lines, found 1
+2     I100 Import statements are in the wrong order. 'from launch.actions import DeclareLaunchArgument' should be before 'from launch.substitutions import LaunchConfiguration'
+2     I201 Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.
+12    Q000 Double quotes found but single quotes preferred
+2     W292 no newline at end of file
+
+2 files checked
+19 errors
+
+'E'-type errors: 1
+'I'-type errors: 4
+'Q'-type errors: 12
+'W'-type errors: 2
+
+Checked files:
+
+* ./setup.py
+* ./launch/display.launch.py
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/flake8.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>flake8</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/lint_cmake.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.210708</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/lint_cmake.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':
+ - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>pep257</Name>
+			<Path>.</Path>
+			<FullName>./pep257</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/pep257.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/pep257.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.233414</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/pep257.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/pep257.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':
+ - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/pep257.xunit.xml
+checking ./launch/display.launch.py
+checking ./setup.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/pep257.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>pep257</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.15243</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml" "--package-name" "two_joint_arm" "--output-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/dyddl2082/ros2_ws/src/two_joint_arm':
+ - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/dyddl2082/ros2_ws/build/two_joint_arm/test_results/two_joint_arm/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Jul 09 17:57 KST</EndDateTime>
+		<EndTestTime>1752051463</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

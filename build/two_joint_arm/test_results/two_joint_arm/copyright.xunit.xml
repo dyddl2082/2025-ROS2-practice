@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="two_joint_arm.copyright"
+  tests="1"
+  errors="0"
+  failures="1"
+  time="0.000"
+>
+  <testcase
+    name="launch/display.launch.py"
+    classname="two_joint_arm.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* launch/display.launch.py</system-out>
+</testsuite>

@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000225] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000249] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001098] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.001149] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.001180] (Wild_Gunman) JobQueued: {'identifier': 'Wild_Gunman', 'dependencies': OrderedDict()}
+[0.001200] (Wild_Gunman) JobStarted: {'identifier': 'Wild_Gunman'}
+[0.010510] (Wild_Gunman) JobProgress: {'identifier': 'Wild_Gunman', 'progress': 'cmake'}
+[0.012006] (Wild_Gunman) Command: {'cmd': ['/usr/bin/cmake', '/home/dyddl2082/ros2_ws/src/Wild_Gunman', '-DCMAKE_INSTALL_PREFIX=/home/dyddl2082/ros2_ws/install/Wild_Gunman'], 'cwd': '/home/dyddl2082/ros2_ws/build/Wild_Gunman', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/718_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/Wild_Gunman'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.032199] (Wild_Gunman) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.051044] (Wild_Gunman) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099105] (-) TimerEvent: {}
+[0.182292] (Wild_Gunman) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.199262] (-) TimerEvent: {}
+[0.299600] (-) TimerEvent: {}
+[0.399949] (-) TimerEvent: {}
+[0.500302] (-) TimerEvent: {}
+[0.505027] (Wild_Gunman) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.513703] (Wild_Gunman) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600445] (-) TimerEvent: {}
+[0.700830] (-) TimerEvent: {}
+[0.801210] (-) TimerEvent: {}
+[0.901558] (-) TimerEvent: {}
+[1.001979] (-) TimerEvent: {}
+[1.102487] (-) TimerEvent: {}
+[1.202946] (-) TimerEvent: {}
+[1.303326] (-) TimerEvent: {}
+[1.403689] (-) TimerEvent: {}
+[1.504039] (-) TimerEvent: {}
+[1.604457] (-) TimerEvent: {}
+[1.704859] (-) TimerEvent: {}
+[1.805212] (-) TimerEvent: {}
+[1.905595] (-) TimerEvent: {}
+[2.005992] (-) TimerEvent: {}
+[2.106346] (-) TimerEvent: {}
+[2.206705] (-) TimerEvent: {}
+[2.307109] (-) TimerEvent: {}
+[2.407492] (-) TimerEvent: {}
+[2.507896] (-) TimerEvent: {}
+[2.608328] (-) TimerEvent: {}
+[2.708700] (-) TimerEvent: {}
+[2.809088] (-) TimerEvent: {}
+[2.853743] (Wild_Gunman) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.909233] (-) TimerEvent: {}
+[3.009602] (-) TimerEvent: {}
+[3.109975] (-) TimerEvent: {}
+[3.210413] (-) TimerEvent: {}
+[3.310968] (-) TimerEvent: {}
+[3.411383] (-) TimerEvent: {}
+[3.511743] (-) TimerEvent: {}
+[3.612142] (-) TimerEvent: {}
+[3.712566] (-) TimerEvent: {}
+[3.812925] (-) TimerEvent: {}
+[3.913292] (-) TimerEvent: {}
+[4.013664] (-) TimerEvent: {}
+[4.114047] (-) TimerEvent: {}
+[4.214682] (-) TimerEvent: {}
+[4.315035] (-) TimerEvent: {}
+[4.415382] (-) TimerEvent: {}
+[4.515747] (-) TimerEvent: {}
+[4.616102] (-) TimerEvent: {}
+[4.716459] (-) TimerEvent: {}
+[4.816853] (-) TimerEvent: {}
+[4.917232] (-) TimerEvent: {}
+[5.017593] (-) TimerEvent: {}
+[5.117956] (-) TimerEvent: {}
+[5.136046] (Wild_Gunman) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.218163] (-) TimerEvent: {}
+[5.318705] (-) TimerEvent: {}
+[5.419262] (-) TimerEvent: {}
+[5.519785] (-) TimerEvent: {}
+[5.620178] (-) TimerEvent: {}
+[5.720569] (-) TimerEvent: {}
+[5.820939] (-) TimerEvent: {}
+[5.921300] (-) TimerEvent: {}
+[6.021659] (-) TimerEvent: {}
+[6.122015] (-) TimerEvent: {}
+[6.222378] (-) TimerEvent: {}
+[6.322752] (-) TimerEvent: {}
+[6.423101] (-) TimerEvent: {}
+[6.523510] (-) TimerEvent: {}
+[6.623864] (-) TimerEvent: {}
+[6.724326] (-) TimerEvent: {}
+[6.824810] (-) TimerEvent: {}
+[6.925321] (-) TimerEvent: {}
+[7.026007] (-) TimerEvent: {}
+[7.126453] (-) TimerEvent: {}
+[7.226942] (-) TimerEvent: {}
+[7.327305] (-) TimerEvent: {}
+[7.427715] (-) TimerEvent: {}
+[7.528124] (-) TimerEvent: {}
+[7.628592] (-) TimerEvent: {}
+[7.729062] (-) TimerEvent: {}
+[7.829455] (-) TimerEvent: {}
+[7.929888] (-) TimerEvent: {}
+[8.030468] (-) TimerEvent: {}
+[8.130858] (-) TimerEvent: {}
+[8.231253] (-) TimerEvent: {}
+[8.331670] (-) TimerEvent: {}
+[8.432375] (-) TimerEvent: {}
+[8.533032] (-) TimerEvent: {}
+[8.633591] (-) TimerEvent: {}
+[8.734108] (-) TimerEvent: {}
+[8.834618] (-) TimerEvent: {}
+[8.935101] (-) TimerEvent: {}
+[9.035551] (-) TimerEvent: {}
+[9.135964] (-) TimerEvent: {}
+[9.236446] (-) TimerEvent: {}
+[9.337148] (-) TimerEvent: {}
+[9.437539] (-) TimerEvent: {}
+[9.537995] (-) TimerEvent: {}
+[9.638661] (-) TimerEvent: {}
+[9.739051] (-) TimerEvent: {}
+[9.819295] (Wild_Gunman) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.839476] (-) TimerEvent: {}
+[9.900759] (Wild_Gunman) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[9.906770] (Wild_Gunman) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.912963] (Wild_Gunman) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.939778] (-) TimerEvent: {}
+[10.040676] (-) TimerEvent: {}
+[10.141037] (-) TimerEvent: {}
+[10.241483] (-) TimerEvent: {}
+[10.247861] (Wild_Gunman) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.248229] (Wild_Gunman) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.341691] (-) TimerEvent: {}
+[10.442347] (-) TimerEvent: {}
+[10.543168] (-) TimerEvent: {}
+[10.585759] (Wild_Gunman) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[10.585924] (Wild_Gunman) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[10.643435] (-) TimerEvent: {}
+[10.743884] (-) TimerEvent: {}
+[10.844364] (-) TimerEvent: {}
+[10.913332] (Wild_Gunman) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[10.913571] (Wild_Gunman) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[10.944523] (-) TimerEvent: {}
+[11.044869] (-) TimerEvent: {}
+[11.145288] (-) TimerEvent: {}
+[11.236988] (Wild_Gunman) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[11.237942] (Wild_Gunman) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.245434] (-) TimerEvent: {}
+[11.345826] (-) TimerEvent: {}
+[11.405266] (Wild_Gunman) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[11.445976] (-) TimerEvent: {}
+[11.457381] (Wild_Gunman) StderrLine: {'line': b'WARNING: Package name "Wild_Gunman" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[11.478856] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.480364] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.480481] (Wild_Gunman) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.480529] (Wild_Gunman) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.481428] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.481500] (Wild_Gunman) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.482755] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.484590] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.484833] (Wild_Gunman) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.485773] (Wild_Gunman) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.489118] (Wild_Gunman) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.501594] (Wild_Gunman) StdoutLine: {'line': b'-- Generating done\n'}
+[11.504950] (Wild_Gunman) StdoutLine: {'line': b'-- Build files have been written to: /home/dyddl2082/ros2_ws/build/Wild_Gunman\n'}
+[11.511516] (Wild_Gunman) CommandEnded: {'returncode': 0}
+[11.512016] (Wild_Gunman) JobProgress: {'identifier': 'Wild_Gunman', 'progress': 'build'}
+[11.514371] (Wild_Gunman) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyddl2082/ros2_ws/build/Wild_Gunman', '--', '-j18', '-l18'], 'cwd': '/home/dyddl2082/ros2_ws/build/Wild_Gunman', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dyddl2082'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dyddl2082'), ('OLDPWD', '/home/dyddl2082/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dyddl2082'), ('NAME', 'DESKTOP-DYDDL2082'), ('WSL_INTEROP', '/run/WSL/718_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dyddl2082/.local/bin:/home/dyddl2082/jdk17/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/.cargo/bin:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/SOOP:/mnt/c/Program Files/JetBrains/RustRover/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JAVA_HOME', '/home/dyddl2082/jdk17'), ('PWD', '/home/dyddl2082/ros2_ws/build/Wild_Gunman'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.546161] (-) TimerEvent: {}
+[11.549545] (Wild_Gunman) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target player\x1b[0m\n'}
+[11.550086] (Wild_Gunman) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gunman\x1b[0m\n'}
+[11.646347] (-) TimerEvent: {}
+[11.713790] (Wild_Gunman) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/player.dir/src/Player.cpp.o\x1b[0m\n'}
+[11.719212] (Wild_Gunman) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gunman.dir/src/Shooter.cpp.o\x1b[0m\n'}
+[11.742028] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Shooter.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kfuctional: No such file or directory\n'}
+[11.742332] (Wild_Gunman) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K<fuctional>\x1b[m\x1b[K\n'}
+[11.742449] (Wild_Gunman) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.742514] (Wild_Gunman) StderrLine: {'line': b'compilation terminated.\n'}
+[11.743700] (Wild_Gunman) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gunman.dir/build.make:63: CMakeFiles/gunman.dir/src/Shooter.cpp.o] Error 1\n'}
+[11.744177] (Wild_Gunman) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/gunman.dir/all] Error 2\n'}
+[11.744632] (Wild_Gunman) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[11.746454] (-) TimerEvent: {}
+[11.846892] (-) TimerEvent: {}
+[11.947419] (-) TimerEvent: {}
+[12.047804] (-) TimerEvent: {}
+[12.148197] (-) TimerEvent: {}
+[12.248748] (-) TimerEvent: {}
+[12.349136] (-) TimerEvent: {}
+[12.449635] (-) TimerEvent: {}
+[12.550215] (-) TimerEvent: {}
+[12.650627] (-) TimerEvent: {}
+[12.751154] (-) TimerEvent: {}
+[12.851633] (-) TimerEvent: {}
+[12.861204] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:87:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[12.861400] (Wild_Gunman) StderrLine: {'line': b'   87 | }\n'}
+[12.861433] (Wild_Gunman) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.861524] (Wild_Gunman) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[12.878515] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPlayer::Player()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.878721] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:35:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[12.878775] (Wild_Gunman) StderrLine: {'line': b'   35 |             })\n'}
+[12.878821] (Wild_Gunman) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.878864] (Wild_Gunman) StderrLine: {'line': b'      |               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[12.878907] (Wild_Gunman) StderrLine: {'line': b'   36 |         \x1b[32m\x1b[K}\x1b[m\x1b[K\n'}
+[12.878950] (Wild_Gunman) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~\x1b[m\x1b[K      \n'}
+[12.879806] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Player::input_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.880318] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:58:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreaction_pub_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.880743] (Wild_Gunman) StderrLine: {'line': b'   58 |                         msg.data = "Reacted"\n'}
+[12.881047] (Wild_Gunman) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.881302] (Wild_Gunman) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[12.881488] (Wild_Gunman) StderrLine: {'line': b'   59 |                         \x1b[32m\x1b[Kreaction_pub_\x1b[m\x1b[K->publish(msg);\n'}
+[12.881661] (Wild_Gunman) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K        \n'}
+[12.887628] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[12.888009] (Wild_Gunman) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dyddl2082/ros2_ws/src/Wild_Gunman/src/Player.cpp:75:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""s\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.888183] (Wild_Gunman) StderrLine: {'line': b'   75 |                     std::this_thread::sleep_for(\x1b[01;31m\x1b[K1s\x1b[m\x1b[K);\n'}
+[12.888261] (Wild_Gunman) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.952003] (-) TimerEvent: {}
+[13.052980] (-) TimerEvent: {}
+[13.153538] (-) TimerEvent: {}
+[13.254429] (-) TimerEvent: {}
+[13.354837] (-) TimerEvent: {}
+[13.455446] (-) TimerEvent: {}
+[13.556231] (-) TimerEvent: {}
+[13.656850] (-) TimerEvent: {}
+[13.757424] (-) TimerEvent: {}
+[13.858422] (-) TimerEvent: {}
+[13.959320] (-) TimerEvent: {}
+[14.059914] (-) TimerEvent: {}
+[14.160648] (-) TimerEvent: {}
+[14.261093] (-) TimerEvent: {}
+[14.295668] (Wild_Gunman) StderrLine: {'line': b'make[2]: *** [CMakeFiles/player.dir/build.make:63: CMakeFiles/player.dir/src/Player.cpp.o] Error 1\n'}
+[14.295841] (Wild_Gunman) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/player.dir/all] Error 2\n'}
+[14.296050] (Wild_Gunman) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[14.298604] (Wild_Gunman) CommandEnded: {'returncode': 2}
+[14.305989] (Wild_Gunman) JobEnded: {'identifier': 'Wild_Gunman', 'rc': 2}
+[14.316919] (-) EventReactorShutdown: {}
