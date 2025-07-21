@@ -1,0 +1,219 @@
+<?xml version="1.0" ?>
+<robot name="sbr" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find sbr_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find sbr_description)/urdf/sbr.trans" />
+<xacro:include filename="$(find sbr_description)/urdf/sbr.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0 0.11 0.0225" rpy="0 0 0"/>
+    <mass value="0.39249999999999996"/>
+    <inertia ixx="0.001309" iyy="8.3e-05" izz="0.00139" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_motor_bracket_1">
+  <inertial>
+    <origin xyz="-0.024999999999999998 -0.025000000000000022 0.025" rpy="0 0 0"/>
+    <mass value="0.9812500000000001"/>
+    <inertia ixx="0.000409" iyy="0.000409" izz="0.000409" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.025 -0.21 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/right_motor_bracket_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.025 -0.21 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/right_motor_bracket_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_motor_bracket_1">
+  <inertial>
+    <origin xyz="-0.025 0.025 0.025" rpy="0 0 0"/>
+    <mass value="0.98125"/>
+    <inertia ixx="0.000409" iyy="0.000409" izz="0.000409" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.025 -0.01 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/left_motor_bracket_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.025 -0.01 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/left_motor_bracket_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="top_part_1">
+  <inertial>
+    <origin xyz="0.0 1.3877787807814457e-17 0.16314793726331642" rpy="0 0 0"/>
+    <mass value="3.7793463200800357"/>
+    <inertia ixx="0.041048" iyy="0.039822" izz="0.002062" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.11 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/top_part_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.11 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/top_part_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_wheel_1">
+  <inertial>
+    <origin xyz="5.300210539884436e-15 0.00999999999999999 6.938893903907228e-18" rpy="0 0 0"/>
+    <mass value="1.2207443653686532"/>
+    <inertia ixx="0.000811" iyy="0.001541" izz="0.000811" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 0.02 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 0.02 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_wheel_1">
+  <inertial>
+    <origin xyz="5.2782786342021545e-15 -0.009999999999999981 -1.3877787807814457e-17" rpy="0 0 0"/>
+    <mass value="1.2207443653686532"/>
+    <inertia ixx="0.000811" iyy="0.001541" izz="0.000811" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.24 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.24 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_motor_shaft_1">
+  <inertial>
+    <origin xyz="2.614199199251328e-13 -0.014999999999999836 -1.3877787807814457e-17" rpy="0 0 0"/>
+    <mass value="0.018496126748010308"/>
+    <inertia ixx="2e-06" iyy="0.0" izz="2e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.01 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/left_motor_shaft_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.01 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/left_motor_shaft_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_motor_shaft_1">
+  <inertial>
+    <origin xyz="-2.614152079922716e-13 0.01499999999999993 2.0816681711721685e-17" rpy="0 0 0"/>
+    <mass value="0.018496126748010294"/>
+    <inertia ixx="2e-06" iyy="0.0" izz="2e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.21 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/right_motor_shaft_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.21 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find sbr_description)/meshes/right_motor_shaft_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="rigid_1" type="fixed">
+  <origin xyz="0.025 0.21 0.025" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_motor_bracket_1"/>
+</joint>
+
+<joint name="rigid_2" type="fixed">
+  <origin xyz="0.025 0.01 0.025" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_motor_bracket_1"/>
+</joint>
+
+<joint name="rigid_3" type="fixed">
+  <origin xyz="0.0 0.11 0.025" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="top_part_1"/>
+</joint>
+
+<joint name="rigid_4" type="fixed">
+  <origin xyz="0.0 -0.03 0.0" rpy="0 0 0"/>
+  <parent link="left_motor_shaft_1"/>
+  <child link="left_wheel_1"/>
+</joint>
+
+<joint name="rigid_5" type="fixed">
+  <origin xyz="0.0 0.03 0.0" rpy="0 0 0"/>
+  <parent link="right_motor_shaft_1"/>
+  <child link="right_wheel_1"/>
+</joint>
+
+<joint name="revolute_1" type="continuous">
+  <origin xyz="-0.025 0.0 0.025" rpy="0 0 0"/>
+  <parent link="left_motor_bracket_1"/>
+  <child link="left_motor_shaft_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="revolute_2" type="continuous">
+  <origin xyz="-0.025 0.0 0.025" rpy="0 0 0"/>
+  <parent link="right_motor_bracket_1"/>
+  <child link="right_motor_shaft_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+</robot>
